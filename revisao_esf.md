@@ -1,5 +1,5 @@
 ---
-title: Esforços
+title: Análise de estruturas
 parent: Introdução
 layout: home
 nav_order: 1
@@ -13,5 +13,32 @@ has_children: false
 <!--Don't delete this script-->
 
 <p align="justify">
-  Está seção pretende revisar conceitos da graduação relativos aos esforços, tensões e deformações. Com isso poderemos estender os conceitos dessas grandezas para formulações mais completas que contemplam as três dimensões. 
+  Uma das etapas mais importantes da elaboração de um projeto de engenharia é a análise de estruturas. De modo geral está etapa consiste em obter os esforços internos dos elementos estruturais.
+  <br><br>
+  Dada essa etapa poderemos verificar a quantidade de armadura necessária em uma viga de concreto armado ou por exemplo a quantidade de parafusos necessários para uma ligação.
+  <br><br>
+  Süssekind <a href="#ref1">[1]</a> afirma que existem duas grandezas fundamentais: forças e momentos. 
 </p>
+
+{: .highlight-title }
+> CONCEITO
+>
+> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.
+> Já o momento é a grandeza que mede a tendência de rotação de em torno de um ponto provocada por uma força.
+
+<h1>Referências</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Reference</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1007/s00521-016-2328-2" target="_blank" rel="noopener noreferrer">Sussekind JC. Curso de análise estrutural: estruturas isostáticas. vol. 1, 11. ed. São Paulo: Globo, 1991. 3v. ISBN 852502267.</a></p></td>
+        </tr>
+    </tbody>
+</table>
