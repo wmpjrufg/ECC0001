@@ -26,6 +26,21 @@ has_children: false
 > Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.
 > Já o momento é a grandeza que mede a tendência de rotação de em torno de um ponto provocada por uma força.
 
+<p align="justify">
+  Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto:
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
+    </tr>
+</table>
+
 <h1>Referências</h1>
 
 <table>
