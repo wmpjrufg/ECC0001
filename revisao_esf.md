@@ -1,0 +1,17 @@
+---
+title: Esforços
+parent: Introdução
+layout: home
+nav_order: 1
+has_toc: false
+has_children: false
+---
+
+<!--Don't delete this script-->
+<script src = "https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--Don't delete this script-->
+
+<p align="justify">
+  Está seção pretende revisar conceitos da graduação relativos aos esforços, tensões e deformações. Com isso poderemos estender os conceitos dessas grandezas para formulações mais completas que contemplam as três dimensões. 
+</p>
