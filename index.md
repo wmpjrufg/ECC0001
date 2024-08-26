@@ -29,9 +29,11 @@ has_toc: false
   <li><a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1UUOfmCH4539GA46mEw_687d9u7eGKAH4/view?usp=sharing">Prancha padrão</a> em formato <code>.dwg</code></li> -->
   <li>Programa <a target="_blank" rel="noopener" href="https://smath.com/en-US/view/SMathStudio/download">SMath Studio</a></li>
   <li>Programa <a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Ftool</a></li>
+  <li>Linguagem <a target="_blank" rel="noopener" href="https://www.python.org/downloads/">Python</a></li>
 </ul>
 <!-- 
 <h3>Referências</h3>
+
 
 <ol>
   <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6118: Projeto
