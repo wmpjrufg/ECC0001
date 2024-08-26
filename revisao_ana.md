@@ -25,7 +25,7 @@ has_children: false
 {: .highlight-title }
 > CONCEITO
 >
-> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.
+> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.  
 > Já o momento é a grandeza que mede a tendência de rotação em torno de um ponto provocada por uma força.
 
 <p align="justify">
