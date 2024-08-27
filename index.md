@@ -30,7 +30,7 @@ has_toc: false
   <li>Programa <a target="_blank" rel="noopener" href="https://smath.com/en-US/view/SMathStudio/download">SMath Studio</a></li>
   <li>Programa <a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Ftool</a></li>
   <li>Linguagem <a target="_blank" rel="noopener" href="https://www.python.org/downloads/">Python</a></li>
-  <li>Linguagem <a target="_blank" rel="noopener" href="https://octave.org/download/">Octave</a></li>
+  <li>Linguagem <a target="_blank" rel="noopener" href="https://octave.org/download">Octave</a></li>
 </ul>
 <!-- 
 <h3>Referências</h3>
