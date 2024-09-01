@@ -22,22 +22,56 @@ has_toc: false
   Este material é construído com auxílio dos alunos de graduação e pós-graduação que passam pelo curso de Fundamentos da Mecânicas dos Sólidos. Os alunos são registrado no GitHub da disciplina para que efetivem essa contribuição. Para verificar os alunos que já contribuiram basta consultar o <a target="_blank" rel="noopener" href="https://github.com/wmpjrufg/ECC0001/graphs/contributors"><i>link</i></a>.
 </p>
 
+<h3>Onde estamos?</h3>
+
+<p align="justify">
+  Tudo bem pessoal?! Este material tem como principal objetivo estender os conceitos de mecânica geral, resistências dos materiais e um pouco de análise de estruturas para auxiliar engenheios, cientistas e demais usuários desse tipo de teoria. A mecânica dos sólidos pode ser dividida em dois grandes grupos: (a) a Mecânica dos Sólidos Rígidos e (b) a Mecânica dos Sólidos Deformárveis, sendo o último o foco de nossos estudos.
+  <br><br>
+  Aqui nos preocuparemos com os esforços internos, como a mudança de geometria afeta o comportamento do material. Também relacionaremos as propriedades do material a este comportamento mecânico. Estudaremos os conceitos de forma a expor a formulação nas três dimensões do espaço. Algumas análises teóricas são apresentadas para consolidar os conceitos matemáticos desenvolvidos.
+</p>
+
+<h3>Como utilizar este material</h3>
+
+<table>
+  <tr>
+    <td style="width:70%;">
+      <p align="justify">
+        Aqui será apresentado algum tipo de curiosidade ou fato relevante do conteúdo.
+      </p>
+    </td>
+    <td style="width:30%;"><center><img src="assets/images/questao.png" width="30%" height="auto"/></center></td>  
+  </tr>
+  <tr>
+    <td style="width:70%;">
+      <p align="justify">
+        Aqui vamos treinar o conteúdo através de exercícios.
+      </p>
+    </td>
+    <td style="width:30%;"><center><img src="assets/images/cerebro.png" width="30%" height="auto"/></center></td>  
+  </tr>
+  <tr>
+    <td style="width:70%;">
+      <p align="justify">
+        Aqui você poderá acessar um conteúdo que envolve programação, ou seja, um algoritmo.
+      </p>
+    </td>
+    <td style="width:30%;"><center><img src="assets/images/codigo-fonte.png" width="30%" height="auto"/></center></td>  
+  </tr>
+  <tr>
+    <td style="width:70%;">
+      <p align="justify">
+        Aqui vamos recuperar algum conceito importante que será empregado no conteúdo.
+      </p>
+    </td>
+    <td style="width:30%;"><center><img src="assets/images/discurso-da-bolha.png" width="30%" height="auto"/></center></td>  
+  </tr>
+</table>
+
 <h3>Acesso rápido</h3>
 
 <ul>
-  <!-- <li><a target="_blank" rel="noopener" href="https://drive.google.com/drive/folders/0B7fde98nbW1JfjhwMndpN1pqSFVnWkVKLTVGeTh0X3huZVRETGtIQk95N2lxS1JHUjE0M1U?resourcekey=0-80u4x0QEcpM_rnPTI6GT0g&usp=sharing">Plano de ensino</a></li>
-  <li><a target="_blank" rel="noopener" href="https://drive.google.com/file/d/1UUOfmCH4539GA46mEw_687d9u7eGKAH4/view?usp=sharing">Prancha padrão</a> em formato <code>.dwg</code></li> -->
   <li>Programa <a target="_blank" rel="noopener" href="https://smath.com/en-US/view/SMathStudio/download">SMath Studio</a></li>
   <li>Programa <a target="_blank" rel="noopener" href="https://www.ftool.com.br/Ftool/">Ftool</a></li>
   <li>Linguagem <a target="_blank" rel="noopener" href="https://www.python.org/downloads/">Python</a></li>
   <li>Linguagem <a target="_blank" rel="noopener" href="https://octave.org/download">Octave</a></li>
 </ul>
-<!-- 
-<h3>Referências</h3>
-
-
-<ol>
-  <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6118: Projeto
-de estruturas de concreto - Procedimento. Rio de Janeiro, 2023.</p></li>
-  <li><p align="justify">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6120: Ações para o cálculo de estruturas de edificações. Rio de Janeiro, 2019.</p></li>
-</ol> -->
