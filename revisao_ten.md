@@ -18,7 +18,7 @@ has_children: false
   Dado que conhecemos os esforços em um seção qualquer do sólido podemos nos por a pensar sobre o efeito dessa força em toda a área dessa seção <i>S</i>. Tal fato poderia nos permitir a determinar a capacidade de carga daquela área genérica. Isso nos leva ao conceito mais básico de tensão que corresponde a uma intensidade médida das forças em uma área <i>A</i> qualquer. Chamaremos essa intensidade de forças por unidade de área de tensão. Um exemplo dessa distribuição pode ser visto na Figura <a href="#fig-tensao-1">1</a> e a equação <a href="#eq1">(1)</a> define essa tensão.
 </p>
 
-<center><img src="assets/images/fig-tensao-1.png" width="50%" height="auto"/></center>
+<center><img src="assets/images/fig-tensao-1.png" width="30%" height="auto"/></center>
 <p align="left" id="fig-tensao-1"><b>Figura 1.</b> Força \( \vec{P} \) atuando em um corpo livre do tipo barra reta <a href="#ref1">[1]</a>.</p>
 
 <table style = "width:100%">
