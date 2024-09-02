@@ -1,8 +1,8 @@
 ---
-title: Esforços internos
+title: Tensões
 parent: Introdução
 layout: home
-nav_order: 3
+nav_order: 1
 has_toc: false
 has_children: false
 ---
@@ -12,7 +12,7 @@ has_children: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Introdução</h1>
+<h1>Conceito de Tensão</h1>
 
 <p align="justify">
   Uma das etapas mais importantes da elaboração de um projeto de engenharia é a análise de estruturas. De modo geral está etapa consiste em obter os esforços internos dos elementos estruturais.
