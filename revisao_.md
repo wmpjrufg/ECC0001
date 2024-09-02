@@ -44,7 +44,6 @@ has_children: true
 > Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.  
 > Já o momento é a grandeza que mede a tendência de rotação em torno de um ponto provocada por uma força.
 
-
 <p align="justify">
     Em geral as forças são divididas em dois grandes grupos: 
 </p>
@@ -54,8 +53,12 @@ has_children: true
     <li>Forças de corpo (Ver Figura <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a>)</li>
 </ul>
 
+<p align="justify">
+    Na Figura <a href="#fig-intro-1">1a</a> podemos verificar uma força de superfície agindo. Considerando que este elemento está tracionado poderiamos dizer que a força \( \vec{P} \) representa a massa de um corpo que é suportado pelo tirante. Já as Figuras <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a> representam as forças de corpo sendo que em <a href="#fig-intro-1">1b</a> seria o próprio peso do elemento estrutural sujeito a ação da gravidade e <a href="#fig-intro-1">1c</a> a ação de uma força magnética de um imã.
+</p>
+
 <center><img src="assets/images/fig-intro-1.png" width="100%" height="auto"/></center>
-<p align="left" id = "fig-intro-1"><b>Figura 1.</b> Exemplos de forças de corpo e superfície <a href="#ref3">[3]</a>.</p>
+<p align="left" id="fig-intro-1"><b>Figura 1.</b> Exemplos de forças de corpo e superfície <a href="#ref3">[3]</a>.</p>
 
 <p align="justify">
     Em termos de representação as forças podem ser:
@@ -71,25 +74,23 @@ has_children: true
 </p>
 
 <center><img src="assets/images/fig-intro-2.png" width="60%" height="auto"/></center>
-<p align="left" id = "fig-intro-2"><b>Figura 2.</b> Conjunto barra-cabo submetido a uma força de 18 kN <a href="#ref3">[3]</a>.</p>
+<p align="left" id="fig-intro-2"><b>Figura 2.</b> Conjunto barra-cabo submetido a uma força de 18 kN <a href="#ref3">[3]</a>.</p>
 
 <p align="justify">
-    Dado que um sistema de forças, atuando sobre um corpo, encontra equilíbrio através das reações de apoio que ele provoca <a href="#ref1">[1]</a> poderiamos nos fazer a seguinte pergunta: O que ocorre no interior deste corpo?
+    Dado que um sistema de forças, atuando sobre um corpo, encontra equilíbrio através das reações de apoio que ele provoca <a href="#ref2">[2]</a> poderiamos nos fazer a seguinte pergunta: O que ocorre no interior deste corpo?
     <br><br> 
     Para responder essa pergunta precisamos cortar uma seção <i>S</i> em um sólido de geometria hipótetica conforme descrito na Figura <a href="#fig-intro-3">3</a>. O que encontrariamos nas suas seções?
 </p>
 
 <center><img src="assets/images/fig-intro-3.png" width="60%" height="auto"/></center>
-<p align="left" id = "fig-intro-3"><b>Figura 3.</b> Corpo deformável cortado por uma seção <i>S</i> <a href="#ref4">[4]</a>.</p>
+<p align="left" id="fig-intro-3"><b>Figura 3.</b> Corpo deformável cortado por uma seção <i>S</i> <a href="#ref4">[4]</a>.</p>
 
 <p align="justify">
-    Para ser possível a divisão entre as partes, preservando o equilíbrio das mesmas, é necessário que apliquemos a seção <i>S<sub>E</sub></i>, por exemplo, um sistema estático equivalente (\(\vec{M}\) e \(\vec{R}\)) aos das forças atuantes na parte <i>S<sub>D</sub></i>. Isto vale de maneira analoga para parcela da direita <a href="#ref1">[1]</a>.
-    <br><br>
-    Logo podemos visualizar essas seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> separadamente conforme Figura <a href="#fig-intro-4">4</a>.
+    Para ser possível a divisão entre as partes, preservando o equilíbrio das mesmas, é necessário que apliquemos a seção <i>S<sub>E</sub></i>, por exemplo, um sistema estático equivalente \( \left( \vec{M} \; \text{e} \; \vec{R} \right) \) aos das forças atuantes na parte <i>S<sub>D</sub></i>. Isto vale de maneira analoga para parcela da direita <a href="#ref2">[2]</a>. Logo podemos visualizar essas seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> separadamente conforme Figura <a href="#fig-intro-4">4</a>.
 </p>
 
-<center><img src="assets/images/fig-intro-4.png" width="60%" height="auto"/></center>
-<p align="left" id = "fig-intro-4"><b>Figura 4.</b> Seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> de um sólido deformável <a href="#ref1">[1]</a>.</p>
+<center><img src="assets/images/fig-intro-4.png" width="70%" height="auto"/></center>
+<p align="left" id="fig-intro-4"><b>Figura 4.</b> Seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> de um sólido deformável <a href="#ref2">[2]</a>.</p>
 
 {: .highlight-title }
 > CONCEITO
@@ -108,11 +109,11 @@ has_children: true
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left">Süssekind JC. Curso de análise estrutural: estruturas isostáticas. vol. 1, 11. ed. São Paulo: Globo, 1991. 3v. ISBN 852502267.</p></td>
+            <td><p align = "left"><a href="https://doi.org/10.1007/978-3-319-18878-2" target="_blank" rel="noopener noreferrer">Lubliner J, Papadopoulos P. Introduction to Solid Mechanics: An Integrated Approach. Cham: Springer International Publishing; 2017.</a></p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
-            <td><p align = "left"><a href="https://doi.org/10.1007/978-3-319-18878-2" target="_blank" rel="noopener noreferrer">Lubliner J, Papadopoulos P. Introduction to Solid Mechanics: An Integrated Approach. Cham: Springer International Publishing; 2017.</a></p></td>
+            <td><p align = "left">Süssekind JC. Curso de análise estrutural: estruturas isostáticas. vol. 1, 11. ed. São Paulo: Globo, 1991. 3v. ISBN 852502267.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref3">[3]</p></td>
