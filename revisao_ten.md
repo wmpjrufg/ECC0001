@@ -50,7 +50,7 @@ has_children: false
   Portanto considerando um elemento unidimensional de comprimento inicial <i>L</i> podemos definir a deformação na sua forma infinitesimal:
 </p>
 
-<center><img src="assets/images/fig-tensao-3.png" width="90%" height="auto"/></center>
+<center><img src="assets/images/fig-tensao-3.png" width="70%" height="auto"/></center>
 <p align="left" id="fig-tensao-3"><b>Figura 3.</b> Efeito do campo de deslocamento <i>u</i> em uma barra de comprimento <i>L</i> <a href="#ref3">[3]</a>.</p>
 
 <table style = "width:100%">
