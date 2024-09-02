@@ -1,5 +1,5 @@
 ---
-title: Tensões
+title: Tensões e deformações
 parent: Introdução
 layout: home
 nav_order: 1
@@ -15,43 +15,50 @@ has_children: false
 <h1>Conceito de Tensão</h1>
 
 <p align="justify">
-  Uma das etapas mais importantes da elaboração de um projeto de engenharia é a análise de estruturas. De modo geral está etapa consiste em obter os esforços internos dos elementos estruturais.
-  <br><br>
-  Dada essa etapa poderemos verificar a quantidade de armadura necessária em uma viga de concreto armado ou por exemplo a quantidade de parafusos necessários para uma ligação.
-  <br><br>
-  Süssekind <a href="#ref1">[1]</a> afirma que existem duas grandezas fundamentais: forças e momentos. 
+  Dado que conhecemos os esforços em um seção qualquer do sólido podemos nos por a pensar sobre o efeito dessa força em toda a área dessa seção <i>S</i>. Tal fato poderia nos permitir a determinar a capacidade de carga daquela área genérica. Isso nos leva ao conceito mais básico de tensão que corresponde a uma intensidade médida das forças em uma área <i>A</i> qualquer. Chamaremos essa intensidade de forças por unidade de área de tensão. Um exemplo dessa distribuição pode ser visto na Figura <a href="#fig-tensao-1">1</a> e a equação <a href="#eq1">(1)</a> define essa tensão.
 </p>
 
-{: .highlight-title }
-> CONCEITO
->
-> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.
-> Já o momento é a grandeza que mede a tendência de rotação em torno de um ponto provocada por uma força.
-
-<p align="justify">
-  Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto:
-</p>
+<center><img src="assets/images/fig-tensao-1.png" width="50%" height="auto"/></center>
+<p align="left" id="fig-tensao-1"><b>Figura 1.</b> Força \( \vec{P} \) atuando em um corpo livre do tipo barra reta <a href="#ref1">[1]</a>.</p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
+        <td style="width: 90%;">\[  \sigma = \frac{dF}{dA} \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
 </table>
 
 <p align="justify">
-  Cada um desses vetores pode ser decomposto nas componentes cartesianas \(x\), \(y\) e \(z\). Tal situação permite verificar o equilíbrio em cada uma das direções.
+  Em condições mais complexas de carregamento essas tensões poderiam ser decompostas em outras componentes porém isso será abordado na sequência do material para que assim possamos generalizar o conceito de tensão e então empregar uma formulação tensorial.
 </p>
 
-<h1>Classificação das estruturas</h1>
+<h1>Conceito de Deformação</h1>
 
 <p align="justify">
-  Em construção...
+  O segundo conceito a ser abordado nesta seção é o de deformação. Este consiste na variação de formas e dimensões de um sólido passando para uma nova configuração conforme <a href="#fig-tensao-2">2</a>. Nesta Figura é possível ver um ponto material do sólido mudando sua posição de <i>A</i> para <i>A<sup>*</sup></i>.
 </p>
+
+<center><img src="assets/images/fig-tensao-2.png" width="80%" height="auto"/></center>
+<p align="left" id="fig-tensao-2"><b>Figura 2.</b> Efeito de um campo <i>u</i> de deslocamento sobre um sólido deformável <a href="#ref1">[1]</a>.</p>
+
+{: .warning-title }
+> IMPORTANTE
+>
+> Um campo de deslocamento pode ser decomposto em duas parcelas, uma delas representando o movimento de corpo rígido, o qual não envolve mudança de forma e dimensões do corpo, e a outra traduzindo justamente este efeito.
+
+<p align="justify">
+  Portanto considerando um elemento unidimensional de comprimento inicial <i>L</i> podemos definir a deformação na sua forma infinitesimal:
+</p>
+
+<center><img src="assets/images/fig-tensao-3.png" width="90%" height="auto"/></center>
+<p align="left" id="fig-tensao-3"><b>Figura 3.</b> Efeito do campo de deslocamento <i>u</i> em uma barra de comprimento <i>L</i> <a href="#ref3">[3]</a>.</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[  \varepsilon  = \frac{du(x)}{dx} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
+    </tr>
+</table>
 
 <h1>Referências</h1>
 
@@ -59,13 +66,22 @@ has_children: false
     <thead>
         <tr>
             <th>ID</th>
-            <th>Reference</th>
+            <th>Referência</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left"><a href="https://doi.org/10.1007/s00521-016-2328-2" target="_blank" rel="noopener noreferrer">Sussekind JC. Curso de análise estrutural: estruturas isostáticas. vol. 1, 11. ed. São Paulo: Globo, 1991. 3v. ISBN 852502267.</a></p></td>
+            <td><p align = "left">
+            Beer FP, Johnston Jr. ER, DeWolf JT, Mazurek DF. Mecânica dos materiais. 5o. McGraw-Hill e Bookman; 2021.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref2">[2]</p></td>
+            <td><p align = "left">Vilaça SF, Taborda LF. Introducao à Teoria da Elasticidade. Rio de Janeiro: COPPE - UFRJ; 1998.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left">Parnes R. Solid mechanics in engineering. Chichester: Wiley; 2001.</p></td>
         </tr>
     </tbody>
 </table>
