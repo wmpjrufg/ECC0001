@@ -15,7 +15,7 @@ has_children: false
 <h1>Conceito de Tensão</h1>
 
 <p align="justify">
-  Dado que conhecemos os esforços em um seção qualquer do sólido podemos nos por a pensar sobre o efeito dessa força em toda a área dessa seção <i>S</i>. Tal fato poderia nos permitir a determinar a capacidade de carga daquela área genérica. Isso nos leva ao conceito mais básico de tensão que corresponde a uma intensidade médida das forças em uma área <i>A</i> qualquer. Chamaremos essa intensidade de forças por unidade de área de tensão. Um exemplo dessa distribuição pode ser visto na Figura <a href="#fig-tensao-1">1</a> e a equação <a href="#eq1">(1)</a> define essa tensão.
+  Dado que conhecemos os esforços em um seção qualquer do sólido podemos nos por a pensar sobre o efeito dessa força em toda a área dessa seção <i>S</i>. Tal fato poderia nos permitir a determinar a capacidade de carga daquela área genérica. Isso nos leva ao conceito mais básico de tensão que corresponde a uma intensidade médida das forças em uma área <i>A</i> qualquer. Chamaremos essa intensidade de forças por unidade de área de tensão \( \left( \sigma \right) \). Um exemplo dessa distribuição pode ser visto na Figura <a href="#fig-tensao-1">1</a> e a equação <a href="#eq1">(1)</a> define essa tensão.
 </p>
 
 <center><img src="assets/images/fig-tensao-1.png" width="30%" height="auto"/></center>
@@ -29,7 +29,39 @@ has_children: false
 </table>
 
 <p align="justify">
-  Em condições mais complexas de carregamento essas tensões poderiam ser decompostas em outras componentes porém isso será abordado na sequência do material para que assim possamos generalizar o conceito de tensão e então empregar uma formulação tensorial.
+  Onde \( dF \) e \( dA \) correspondem a uma força e área infinitesimal respectivamente. 
+</p>
+
+<p align="justify">
+  Em condições mais complexas de carregamento essas tensões poderiam ser decompostas nas outras dimensões do espaço, porém isso será abordado na sequência do material para que assim possamos generalizar o conceito de tensão e então empregar uma formulação tensorial.
+</p>
+
+<h3>Alguns tipos de tensão</h3>
+
+<p align="justify">
+  O conceito abordado anteriormente foi o conceito unidimensional de tensão. Porém recuperando um pouco dos problemas desenvolvidos na resitência dos materiais temos diferentes tipos de tensões, como a de flexão e de cisalhamento por exemplo. Podemos até escrever formalmente cada uma dessas equações conforme descrito em <a href="#eq2">(2)</a> e <a href="#eq3">(3)</a>:     
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[  \sigma = \frac{M \cdot y }{I} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
+    </tr>
+</table>
+
+<p align="justify">
+  Onde \( M \) corresponde ao momento fletor atuante na seção transversal, \( y \) a posição da linha neutra e \(I\) o momento de inércia em torno do eixo neutro que ocorre a flexão estudada.
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[  \tal = \frac{V \cdot Q}{I \cdot b} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
+    </tr>
+</table>
+
+<p align="justify">
+  Onde \( V \) corresponde ao cisalhamento atuante na seção transversal, \( Q \) é o momento estático da área de referência, \(I\) o momento de inércia em torno do eixo que ocorre a flexão e \(b\) a espessura do elemento.
 </p>
 
 <h1>Conceito de Deformação</h1>
