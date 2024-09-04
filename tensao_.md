@@ -14,6 +14,8 @@ has_children: true
 <h1>Generalização do Conceito de Tensão</h1>
 
 <p align="justify">
+    Considere um corpo solido...
+    
     Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento,
     momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada por
     o corpo pode ser idealizado como sendo de extensão insignificante (e, portanto, redutível a um
