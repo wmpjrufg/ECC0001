@@ -22,7 +22,7 @@ has_children: false
 {: .warning-title }
 > IMPORTANTE
 >
-> O tensor de tensões é simétrico, ou seja, $\sigma _{ij}=\sigma _{ji}$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com 6 componentes.
+> O tensor de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com 6 componentes.
 
 
 <table style = "width:100%">
