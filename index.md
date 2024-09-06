@@ -32,7 +32,7 @@ has_toc: false
 
 <h3>Como utilizar este material</h3>
 
-<table>
+<!-- <table>
   <tr>
     <td style="width:70%;">
       <p align="justify">
@@ -65,7 +65,7 @@ has_toc: false
     </td>
     <td style="width:30%;"><center><img src="assets/images/discurso-da-bolha.png" width="30%" height="auto"/></center></td>  
   </tr>
-</table>
+</table> -->
 
 <h3>Acesso rápido</h3>
 
