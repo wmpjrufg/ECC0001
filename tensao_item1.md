@@ -12,17 +12,17 @@ has_children: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Estado de Tensões</h1>
+<h1>Descrição do Tensor de Tensões</h1>
 
 <p align="justify">
-    Podemos definir o estado de tensões em um ponto de um sólido, ou em uma partícula de dimensões desprezíveis, como um tensor cartesiano composto por nove componentes (equação <a href="#eq1">1</a>) relativas a três planos ortogonais que determinam as tensões em qualquer plano passando pelo ponto, sendo três tensões normais e seis tensões tangenciais. Portanto, podemos considerar o conjunto dos nove componentes de tensão como um tensor de segunda ordem.
+    Podemos definir o estado de tensões em um ponto de um sólido, ou em uma partícula de dimensões desprezíveis, como um tensor cartesiano composto por nove componentes (equação <a href="#eq1">1</a>) relativas a três planos ortogonais que determinam as tensões em qualquer plano passando por esse ponto, sendo três tensões normais e seis tensões tangenciais. Portanto, podemos considerar o conjunto das nove componentes de tensão como um tensor de segunda ordem, onde a sua representação gráfica está descrita na Figura <a href="#fig-tensor-1">1</a>.
    
 </p>
 
 {: .warning-title }
 > IMPORTANTE
 >
-> O tensor de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com 6 componentes.
+> O tensor de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com seis componentes de tensão.
 
 
 <table style = "width:100%">
@@ -39,9 +39,24 @@ has_children: false
 {: .warning-title }
 > IMPORTANTE
 >
-> Neste formato que representamos os nove componentes de tensões, o primeiro subscrito identifica a linha e o segundo subscrito denota a coluna do tensor de tensões de segunda ordem. Por sua vez, a diagonal do tensor de tensões armazena as tensões normais atuantes no ponto ou na partícula. 
+> Neste formato em que representamos as nove componentes de tensões, o primeiro subscrito identifica a linha e o segundo subscrito denota a coluna do tensor de tensões de segunda ordem. Por sua vez, a diagonal do tensor de tensões armazena as tensões normais atuantes no ponto ou na partícula. 
 
 <center><img src="assets/images/fig-tensor-1.png" width="70%" height="auto"/></center>
-<p align="left" id="fig-tensor-1"><b>Figura 1.</b> O tensor de tensões.</p>
+<p align="left" id="fig-tensor-1"><b>Figura 1.</b> O tensor de tensões <a href="#ref1">[1]</a>.</p>
 
+<h1>Referências</h1>
 
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Referência</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">Parnes R. Solid mechanics in engineering. Chichester: Wiley; 2001.</p></td>
+        </tr>    
+    </tbody>
+</table>
