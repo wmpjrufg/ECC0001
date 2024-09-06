@@ -39,7 +39,7 @@ has_children: true
 <table style = "width:100%">
     <tr>
         <td style="width: 90%;">\[ \mathbf{T}_n = \sigma _{nn} \, \mathbf{\hat{n}} + \tau _{ns} \, \mathbf{\hat{s}} + \tau _{nt} \, \mathbf{\hat{t}}\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq2">(1)</p></td>
+        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
 </table>
 
