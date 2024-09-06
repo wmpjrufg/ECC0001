@@ -14,28 +14,21 @@ has_children: true
 <h1>Generalização do Conceito de Tensão</h1>
 
 <p align="justify">
-    Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento,
-    momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada por
-    o corpo pode ser idealizado como sendo de extensão insignificante (e, portanto, redutível a um
-    ponto), o corpo é chamado de partícula. Qualquer corpo que não seja redutível a um único
-    partícula será chamada de contínuo <a href="#ref1">[1]</a>.
-    <br><br>
-    Süssekind <a href="#ref2">[2]</a> afirma que existem duas grandezas fundamentais: forças e momentos. Porém para que começemos a analisar os sólidos deformáveis vamos partir da premissa básica de que exista um certo equilíbrio. Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto podemos escrever as equações <a href="#eq1">(1)</a> e <a href="#eq2">(2)</a>:
+    Consideremos um sólido seccionado na seção <i>S</i> sujeito a um sistema de forças conforme descrito na Figura <a href="#fig-tensao-1">1</a>. Consideremos que uma parcela infinitesimal <i>dF</i> e <i>dM</i> atuem em uma área <i>dA</i> com vetor normal  \( \vec{n} \). Dada que a relação <i>dM/dA → 0</i> podemos escrever a equação que define a tensão nesse ponto O.
 </p>
+
+<center><img src="assets/images/fig-tensao-1.png" width="60%" height="auto"/></center>
+<p align="left" id="fig-intro-1"><b>Figura 1.</b> Seção esquerda de um sólido onde atuam as grandezas infinitesimais <i>dF</i> e <i>dM</i> <a href="#ref1">[1]</a>.</p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
+        <td style="width: 90%;">\[ T_n = \frac{dF}{dA} \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
 </table>
 
 <p align="justify">
-    Cada um desses vetores pode ser decomposto nas componentes cartesianas \(x\), \(y\) e \(z\). Tal situação permite verificar o equilíbrio em cada uma das direções.
+    Os vetores que indicam as direções no espaço <i>n</i>, <i>s</i> e <i>t</i>.
 </p>
 
 {: .highlight-title }
@@ -109,15 +102,15 @@ has_children: true
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
+            <td><p align = "left">Parnes R. Solid mechanics in engineering. Chichester: Wiley; 2001.</p></td>
+        </tr>
+        <tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
             <td><p align = "left"><a href="https://doi.org/10.1007/978-3-319-18878-2" target="_blank" rel="noopener noreferrer">Lubliner J, Papadopoulos P. Introduction to Solid Mechanics: An Integrated Approach. Cham: Springer International Publishing; 2017.</a></p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
             <td><p align = "left">Süssekind JC. Curso de análise estrutural: estruturas isostáticas. vol. 1, 11. ed. São Paulo: Globo, 1991. 3v. ISBN 852502267.</p></td>
-        </tr>
-        <tr>
-            <td><p align = "center" id = "ref3">[3]</p></td>
-            <td><p align = "left">Parnes R. Solid mechanics in engineering. Chichester: Wiley; 2001.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref4">[4]</p></td>
