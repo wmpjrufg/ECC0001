@@ -21,11 +21,11 @@ has_children: true
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
+        <td style="width: 90%;">\[ \sum \vec{F} = 0 \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
+        <td style="width: 90%;">\[\sum \overset{\twoheadrightarrow{M}}=\sum\left(\vec{r} \times \vec{F} \right)=0\]</td>
         <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
     </tr>
 </table>

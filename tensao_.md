@@ -34,7 +34,7 @@ has_children: true
 
 
 <p align="justify">
-    A força \(\mathbf{T}_n\) poderá ser decomposta nas nas direções nos eixos globais \(x\), \(y\) e \(z\) que será indicada respectivamente pelos vetores diretores \(\mathbf{\hat{x}}\), \(\mathbf{\hat{j}}\) e \(\mathbf{\hat{k}}\).
+    A força \(\mathbf{T}_n\) poderá ser decomposta nas nas direções nos eixos globais \(x\), \(y\) e \(z\) que será indicada respectivamente pelos vetores diretores \(\mathbf{\hat{i}}\), \(\mathbf{\hat{j}}\) e \(\mathbf{\hat{k}}\).
 </p>
 
 {: .highlight-title }
