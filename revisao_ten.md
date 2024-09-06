@@ -15,7 +15,7 @@ has_children: false
 <h1>Conceito de Tensão</h1>
 
 <p align="justify">
-  Dado que conhecemos os esforços em um seção qualquer do sólido podemos nos por a pensar sobre o efeito dessa força em toda a área dessa seção <i>S</i>. Tal fato poderia nos permitir a determinar a capacidade de carga daquela área genérica. Isso nos leva ao conceito mais básico de tensão que corresponde a uma intensidade médida das forças em uma área <i>A</i> qualquer. Chamaremos essa intensidade de forças por unidade de área de tensão \( \left( \sigma \right) \). Um exemplo dessa distribuição pode ser visto na Figura <a href="#fig-tensao-1">1</a> e a equação <a href="#eq1">(1)</a> define essa tensão.
+  Dado que conhecemos os esforços em um seção qualquer do sólido podemos nos por a pensar sobre o efeito dessa força em toda a área dessa seção <i>S</i>. Tal fato poderia nos permitir a determinar a capacidade de carga daquela área genérica. Isso nos leva ao conceito mais básico de tensão que corresponde a uma intensidade medida das forças em uma área <i>A</i> qualquer. Chamaremos essa intensidade de forças por unidade de área de tensão \( \left( \sigma \right) \). Um exemplo dessa distribuição pode ser visto na Figura <a href="#fig-tensao-1">1</a> e a equação <a href="#eq1">(1)</a> define essa tensão.
 </p>
 
 <center><img src="assets/images/fig-tensao-1.png" width="30%" height="auto"/></center>
@@ -39,7 +39,7 @@ has_children: false
 <h3>Alguns tipos de tensão</h3>
 
 <p align="justify">
-  O conceito abordado anteriormente foi o conceito unidimensional de tensão. Porém recuperando um pouco dos problemas desenvolvidos na resitência dos materiais temos diferentes tipos de tensões, como a de flexão e de cisalhamento por exemplo. Podemos até escrever formalmente cada uma dessas equações conforme descrito em <a href="#eq2">(2)</a> e <a href="#eq3">(3)</a>:     
+  O conceito abordado anteriormente foi o conceito unidimensional de tensão. Porém recuperando um pouco dos problemas desenvolvidos na resistência dos materiais temos diferentes tipos de tensões, como a de flexão e de cisalhamento por exemplo. Podemos até escrever formalmente cada uma dessas equações conforme descrito em <a href="#eq2">(2)</a> e <a href="#eq3">(3)</a>:     
 </p>
 
 <table style = "width:100%">
@@ -55,7 +55,7 @@ has_children: false
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[  \tal = \frac{V \cdot Q}{I \cdot b} \]</td>
+        <td style="width: 90%;">\[  \tau = \frac{V \cdot Q}{I \cdot b} \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
     </tr>
 </table>
@@ -70,7 +70,7 @@ has_children: false
   O segundo conceito a ser abordado nesta seção é o de deformação. Este consiste na variação de formas e dimensões de um sólido passando para uma nova configuração conforme <a href="#fig-tensao-2">2</a>. Nesta Figura é possível ver um ponto material do sólido mudando sua posição de <i>A</i> para <i>A<sup>*</sup></i>.
 </p>
 
-<center><img src="assets/images/fig-tensao-2.png" width="80%" height="auto"/></center>
+<center><img src="assets/images/fig-intro-ten-2.png" width="80%" height="auto"/></center>
 <p align="left" id="fig-tensao-2"><b>Figura 2.</b> Efeito de um campo <i>u</i> de deslocamento sobre um sólido deformável <a href="#ref1">[1]</a>.</p>
 
 {: .warning-title }
@@ -82,7 +82,7 @@ has_children: false
   Portanto considerando um elemento unidimensional de comprimento inicial <i>L</i> podemos definir a deformação na sua forma infinitesimal:
 </p>
 
-<center><img src="assets/images/fig-tensao-3.png" width="70%" height="auto"/></center>
+<center><img src="assets/images/fig-intro-ten-3.png" width="80%" height="auto"/></center>
 <p align="left" id="fig-tensao-3"><b>Figura 3.</b> Efeito do campo de deslocamento <i>u</i> em uma barra de comprimento <i>L</i> <a href="#ref3">[3]</a>.</p>
 
 <table style = "width:100%">
@@ -92,14 +92,10 @@ has_children: false
     </tr>
 </table>
 
-<p align="justify">
-  O segundo conceito a ser abordado nesta seção é o de deformação. Este consiste na variação de formas e dimensões de um sólido passando para uma nova configuração conforme <a href="#fig-tensao-2">2</a>. Nesta Figura é possível ver um ponto material do sólido mudando sua posição de <i>A</i> para <i>A<sup>*</sup></i>.
-</p>
-
 <h1>Carregamentos multiaxiais</h1>
 
 <p align="justify">
-  Em geral o que foi empregado em resistência dos materiais é destinado a uma análise em duas dimensões onde por exemplo poderiamos construir uma viga e determinar os esforços naquele plano. No mundo "real" a avaliação das tensões e deformações de um corpo deformável está suijeita a constribuições nas três dimensões do espaço. Logo para estudar sólidos nesse nível de detalhamento é preciso entender os carregamentos multiaxiais.
+  Em geral o que foi empregado em resistência dos materiais é destinado a uma análise em duas dimensões onde por exemplo poderíamos construir uma viga e determinar os esforços naquele plano. No mundo "real" a avaliação das tensões e deformações de um corpo deformável está sujeita a contribuições nas três dimensões do espaço. Logo para estudar sólidos nesse nível de detalhamento é preciso entender os carregamentos multiaxiais.
 </p>
 
 <h1>Referências</h1>

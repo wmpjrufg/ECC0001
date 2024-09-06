@@ -14,13 +14,9 @@ has_children: true
 <h1>Introdução</h1>
 
 <p align="justify">
-    Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento,
-    momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada por
-    o corpo pode ser idealizado como sendo de extensão insignificante (e, portanto, redutível a um
-    ponto), o corpo é chamado de partícula. Qualquer corpo que não seja redutível a um único
-    partícula será chamada de contínuo <a href="#ref1">[1]</a>.
+    Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada pelo corpo idealizado for de extensão insignificante (e, portanto, redutível a um ponto), o corpo é chamado de partícula. Qualquer corpo que não seja redutível a uma única partícula será chamada de contínuo <a href="#ref1">[1]</a>.
     <br><br>
-    Süssekind <a href="#ref2">[2]</a> afirma que existem duas grandezas fundamentais: forças e momentos. Porém para que começemos a analisar os sólidos deformáveis vamos partir da premissa básica de que exista um certo equilíbrio. Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto podemos escrever as equações <a href="#eq1">(1)</a> e <a href="#eq2">(2)</a>:
+    Süssekind <a href="#ref2">[2]</a> afirma que existem duas grandezas fundamentais que agem sobre corpos: forças e momentos. Porém para que comecemos a analisar os sólidos deformáveis vamos partir da premissa básica de que exista um estado de equilíbrio. Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto podemos escrever as equações <a href="#eq1">(1)</a> e <a href="#eq2">(2)</a>:
 </p>
 
 <table style = "width:100%">
@@ -54,10 +50,10 @@ has_children: true
 </ul>
 
 <p align="justify">
-    Na Figura <a href="#fig-intro-1">1a</a> podemos verificar uma força de superfície agindo. Considerando que este elemento está tracionado poderiamos dizer que a força \( \vec{P} \) representa a massa de um corpo que é suportado pelo tirante. Já as Figuras <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a> representam as forças de corpo sendo que em <a href="#fig-intro-1">1b</a> seria o próprio peso do elemento estrutural sujeito a ação da gravidade e <a href="#fig-intro-1">1c</a> a ação de uma força magnética de um imã.
+    Na Figura <a href="#fig-intro-1">1a</a> podemos verificar uma força de superfície agindo. Considerando que este elemento está tracionado poderíamos dizer que a força \( \vec{P} \) representa a massa de um corpo que é suportado pelo tirante. Já as Figuras <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a> representam as forças de corpo sendo que em <a href="#fig-intro-1">1b</a> seria o próprio peso do elemento estrutural sujeito a ação da gravidade e <a href="#fig-intro-1">1c</a> a ação de uma força magnética de um imã.
 </p>
 
-<center><img src="assets/images/fig-intro-1.png" width="100%" height="auto"/></center>
+<center><img src="assets/images/fig-intro-1.png" width="80%" height="auto"/></center>
 <p align="left" id="fig-intro-1"><b>Figura 1.</b> Exemplos de forças de corpo e superfície <a href="#ref3">[3]</a>.</p>
 
 <p align="justify">
@@ -73,20 +69,20 @@ has_children: true
     Para introduzir o conceito de tensão em uma forma mais ampla precisamos determinar os esforços internos que ocorrem no interior de um sólido. Para isso vejamos o conjunto barra-cabo da Figura <a href="#fig-intro-2">2</a>.  
 </p>
 
-<center><img src="assets/images/fig-intro-2.png" width="60%" height="auto"/></center>
+<center><img src="assets/images/fig-intro-2.png" width="70%" height="auto"/></center>
 <p align="left" id="fig-intro-2"><b>Figura 2.</b> Conjunto barra-cabo submetido a uma força de 18 kN <a href="#ref3">[3]</a>.</p>
 
 <p align="justify">
-    Dado que um sistema de forças, atuando sobre um corpo, encontra equilíbrio através das reações de apoio que ele provoca <a href="#ref2">[2]</a> poderiamos nos fazer a seguinte pergunta: O que ocorre no interior deste corpo?
+    Dado que um sistema de forças, atuando sobre um corpo, encontra equilíbrio através das reações de apoio que ele provoca <a href="#ref2">[2]</a> poderíamos nos fazer a seguinte pergunta: O que ocorre no interior deste corpo?
     <br><br> 
-    Para responder essa pergunta precisamos cortar uma seção <i>S</i> em um sólido de geometria hipótetica conforme descrito na Figura <a href="#fig-intro-3">3</a>. O que encontrariamos nas suas seções?
+    Para responder essa pergunta precisamos cortar uma seção <i>S</i> em um sólido de geometria hipotética conforme descrito na Figura <a href="#fig-intro-3">3</a>. O que encontraríamos nas suas seções?
 </p>
 
-<center><img src="assets/images/fig-intro-3.png" width="60%" height="auto"/></center>
+<center><img src="assets/images/fig-intro-3.png" width="70%" height="auto"/></center>
 <p align="left" id="fig-intro-3"><b>Figura 3.</b> Corpo deformável cortado por uma seção <i>S</i> <a href="#ref4">[4]</a>.</p>
 
 <p align="justify">
-    Para ser possível a divisão entre as partes, preservando o equilíbrio das mesmas, é necessário que apliquemos a seção <i>S<sub>E</sub></i>, por exemplo, um sistema estático equivalente \( \left( \vec{M} \; \text{e} \; \vec{R} \right) \) aos das forças atuantes na parte <i>S<sub>D</sub></i>. Isto vale de maneira analoga para parcela da direita <a href="#ref2">[2]</a>. Logo podemos visualizar essas seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> separadamente conforme Figura <a href="#fig-intro-4">4</a>.
+    Para ser possível a divisão entre as partes, preservando o equilíbrio das mesmas, é necessário que apliquemos a seção <i>S<sub>E</sub></i>, por exemplo, um sistema estático equivalente \( \left( \vec{M} \; \text{e} \; \vec{R} \right) \) aos das forças atuantes na parte <i>S<sub>D</sub></i>. Isto vale de maneira análoga para parcela da direita <a href="#ref2">[2]</a>. Logo podemos visualizar essas seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> separadamente conforme Figura <a href="#fig-intro-4">4</a>.
 </p>
 
 <center><img src="assets/images/fig-intro-4.png" width="70%" height="auto"/></center>
