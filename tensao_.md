@@ -14,7 +14,7 @@ has_children: true
 <h1>Generalização do Conceito de Tensão</h1>
 
 <p align="justify"> 
-    Consideremos um sólido seccionado na seção <i>S</i> sujeito a um sistema de forças conforme descrito na Figura <a href="#fig-tensao-1">1</a>. Consideremos que uma parcela infinitesimal \(d\mathbf{F}^*\) e \(d\mathbf{M}^*\) atuem em uma área \(dA\) que possui um vetor normal  \( \vec{\mathbf{n}} \). Dada que a relação \(dM/dA → 0\) podemos escrever a equação que define a tensão nesse ponto O.
+    Consideremos um sólido seccionado na seção <i>S</i> sujeito a um sistema de forças conforme descrito na Figura <a href="#fig-tensao-1">1</a>. Consideremos que uma parcela infinitesimal \(d\mathbf{F}^*\) e \(d\mathbf{M}^*\) atuem em uma área \(dA\) que possui um vetor normal  \( \vec{\mathbf{n}} \). Dada que a relação \(d\mathbf{M}^*/dA → 0\) podemos escrever a equação <a href="#eq1">1</a> que define a tensão nesse ponto O.
 </p>
 
 <center><img src="assets/images/fig-tensao-1.png" width="60%" height="auto"/></center>
@@ -32,69 +32,19 @@ has_children: true
 >
 > $$\mathbf{T}_n$$ é definido em muitas literaturas como o vetor **tração** e por definição representa a intensidade de uma força por unidade de área que atua em uma direção arbitrária em relação ao plano de vetor normal $$\vec{\mathbf{n}}$$.
 
-
 <p align="justify">
-    A força \(\mathbf{T}_n\) poderá ser decomposta nas nas direções nos eixos globais \(x\), \(y\) e \(z\) que será indicada respectivamente pelos vetores diretores \(\mathbf{\hat{i}}\), \(\mathbf{\hat{j}}\) e \(\mathbf{\hat{k}}\).
+    A força \(\mathbf{T}_n\) poderá ser decomposta nas nas direções nos eixos globais \(x\), \(y\) e \(z\) que será indicada respectivamente pelos vetores diretores \(\mathbf{\hat{i}}\), \(\mathbf{\hat{j}}\) e \(\mathbf{\hat{k}}\). Logo o vetor tração na sua forma geral decomposta poderá ser escrito conforme a equação <a href="#eq2">2</a>. A Figura <a href="#fig-tensao-2">2</a> apresenta a intensidade de força por unidade de área de acordo com os eixos diretores diretores \(\mathbf{\hat{n}}\), \(\mathbf{\hat{s}}\) e \(\mathbf{\hat{t}}\) 
 </p>
 
-{: .highlight-title }
-> CONCEITO
->
-> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.  
-> Já o momento é a grandeza que mede a tendência de rotação em torno de um ponto provocada por uma força.
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \mathbf{T}_n = \sigma _{nn} \mathbf{\hat{n}} + \tau _{ns} \mathbf{\hat{s}} + \tau _{nt} \mathbf{\hat{t}}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq2">(1)</p></td>
+    </tr>
+</table>
 
-<p align="justify">
-    Em geral as forças são divididas em dois grandes grupos: 
-</p>
-
-<ul>
-    <li>Forças de superfície (Ver Figura <a href="#fig-intro-1">1a</a>)</li>
-    <li>Forças de corpo (Ver Figura <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a>)</li>
-</ul>
-
-<p align="justify">
-    Na Figura <a href="#fig-intro-1">1a</a> podemos verificar uma força de superfície agindo. Considerando que este elemento está tracionado poderiamos dizer que a força \( \vec{P} \) representa a massa de um corpo que é suportado pelo tirante. Já as Figuras <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a> representam as forças de corpo sendo que em <a href="#fig-intro-1">1b</a> seria o próprio peso do elemento estrutural sujeito a ação da gravidade e <a href="#fig-intro-1">1c</a> a ação de uma força magnética de um imã.
-</p>
-
-<center><img src="assets/images/fig-intro-1.png" width="100%" height="auto"/></center>
-<p align="left" id="fig-intro-1"><b>Figura 1.</b> Exemplos de forças de corpo e superfície <a href="#ref3">[3]</a>.</p>
-
-<p align="justify">
-    Em termos de representação as forças podem ser:
-</p>
-
-<ul>
-    <li>Forças concentradas</li>
-    <li>Forças distribuídas</li>
-</ul>
-
-<p align="justify">
-    Para introduzir o conceito de tensão em uma forma mais ampla precisamos determinar os esforços internos que ocorrem no interior de um sólido. Para isso vejamos o conjunto barra-cabo da Figura <a href="#fig-intro-2">2</a>.  
-</p>
-
-<center><img src="assets/images/fig-intro-2.png" width="60%" height="auto"/></center>
-<p align="left" id="fig-intro-2"><b>Figura 2.</b> Conjunto barra-cabo submetido a uma força de 18 kN <a href="#ref3">[3]</a>.</p>
-
-<p align="justify">
-    Dado que um sistema de forças, atuando sobre um corpo, encontra equilíbrio através das reações de apoio que ele provoca <a href="#ref2">[2]</a> poderiamos nos fazer a seguinte pergunta: O que ocorre no interior deste corpo?
-    <br><br> 
-    Para responder essa pergunta precisamos cortar uma seção <i>S</i> em um sólido de geometria hipótetica conforme descrito na Figura <a href="#fig-intro-3">3</a>. O que encontrariamos nas suas seções?
-</p>
-
-<center><img src="assets/images/fig-intro-3.png" width="60%" height="auto"/></center>
-<p align="left" id="fig-intro-3"><b>Figura 3.</b> Corpo deformável cortado por uma seção <i>S</i> <a href="#ref4">[4]</a>.</p>
-
-<p align="justify">
-    Para ser possível a divisão entre as partes, preservando o equilíbrio das mesmas, é necessário que apliquemos a seção <i>S<sub>E</sub></i>, por exemplo, um sistema estático equivalente \( \left( \vec{M} \; \text{e} \; \vec{R} \right) \) aos das forças atuantes na parte <i>S<sub>D</sub></i>. Isto vale de maneira analoga para parcela da direita <a href="#ref2">[2]</a>. Logo podemos visualizar essas seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> separadamente conforme Figura <a href="#fig-intro-4">4</a>.
-</p>
-
-<center><img src="assets/images/fig-intro-4.png" width="70%" height="auto"/></center>
-<p align="left" id="fig-intro-4"><b>Figura 4.</b> Seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> de um sólido deformável <a href="#ref2">[2]</a>.</p>
-
-{: .highlight-title }
-> CONCEITO
->
-> Portanto os esforços internos são forças e momentos que resultam da ação de forças externas sobre um sólido deformável qualquer e são responsáveis por manter o equilíbrio entre as porções deste sólido. Logo estes esforços internos podem ser decompostos em outros vetores de forças e momentos dando origem a forças normais, de cisalhamento, momentos fletores, etc.
+<center><img src="assets/images/fig-tensao-2.png" width="70%" height="auto"/></center>
+<p align="left" id="fig-tensao-2"><b>Figura 2.</b> Decomposição do vetor tração nas coordenadas \(\mathbf{\hat{n}}\), \(\mathbf{\hat{s}}\) e \(\mathbf{\hat{t}}\)<a href="#ref1">[1]</a>.</p>
 
 <h1>Referências</h1>
 
