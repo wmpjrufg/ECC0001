@@ -42,7 +42,7 @@ has_children: false
 > Considerando o formato em que representamos as nove componentes de tensões, o primeiro subscrito identifica a linha e o segundo subscrito denota a coluna do tensor de tensões de segunda ordem. Por sua vez, a diagonal do tensor de tensões armazena as tensões normais atuantes no ponto ou na partícula. 
 
 <center><img src="assets/images/fig-tensor-1.png" width="70%" height="auto"/></center>
-<p align="left" id="fig-tensor-1"><b>Figura 1.</b> O tensor de tensões <a href="#ref1">[1]</a>.</p>
+<p align="left" id="fig-tensor-1"><b>Figura 1.</b> Representação gráfica do tensor de tensões <a href="#ref1">[1]</a>.</p>
 
 <h1>Referências</h1>
 
