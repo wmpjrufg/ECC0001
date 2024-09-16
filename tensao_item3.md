@@ -15,7 +15,7 @@ has_children: false
 <h1>Princípio de Cauchy</h1>
 
 <p align="justify">
-    De acordo com o Princípio de Cauchy podemos afirmar que as tensões em um ponto de um corpo contínuo podem ser descritas por um tensor de tensões de Cauchy \(\mathbf{\sigma }\), que é um tensor de segunda ordem. Esse tensor relaciona o vetor de força \(\textbf{T}\left ( \textbf{n} \right )\), que é a força por unidade de área atuando em uma superfície com normal \(\mathbf{\n }\), às tensões internas do material.
+    De acordo com o Princípio de Cauchy podemos afirmar que as tensões em um ponto de um corpo contínuo podem ser descritas por um tensor de tensões de Cauchy \(\mathbf{\sigma }\), que é um tensor de segunda ordem. Esse tensor relaciona o vetor de força \(\textbf{T}\left ( \textbf{n} \right )\), que é a força por unidade de área atuando em uma superfície com normal \(\mathbf{ n }\), às tensões internas do material.
     <br>
     <br>
     Dessa forma, podemos escrever o vetor de força como:
