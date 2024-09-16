@@ -24,13 +24,12 @@ has_children: false
 >
 > O tensor de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com seis componentes de tensão.
 
-
 <table style = "width:100%">
     <tr>
         <td style="width: 90%;">\[ \sigma _{ij}=\begin{bmatrix}
- \sigma _{xx}&  \tau_{xy}&  \tau_{xz}\\
- \sigma _{yx}&  \tau_{yy}&  \tau_{yz}\\
- \sigma _{zx}&  \tau_{zy}&  \tau_{zz}\\
+ \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
+ \tau_{xy}&  \sigma _{yy}&  \tau_{yz}\\
+ \tau_{xz}&  \tau_{yz}&  \sigma_{zz}\\
 \end{bmatrix} \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
