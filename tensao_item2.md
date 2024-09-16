@@ -80,7 +80,7 @@ has_children: false
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sigma _{ij}=\begin{bmatrix}
+        <td style="width: 90%;">\[ \begin{bmatrix}
                                     \left(\sigma _{xx} - \sigma _{0}\right)&  \tau_{xy} &  \tau_{xz}\\
                                     \tau_{xy}&  \left(\sigma_{yy} - \sigma_{0}\right) &  \tau_{yz}\\
                                     \tau_{xz}&  \tau_{yz}&  \left(\sigma_{zz} - \sigma_{0}\right)\\
@@ -118,7 +118,7 @@ has_children: false
         <td style="width: 10%;"><p align = "right" id = "eq13">(13)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[ I_3 = \[ \sigma _{ij}=\begin{vmatrix}
+        <td style="width: 90%;">\[ I_3 = \begin{vmatrix}
                                         \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
                                         \tau_{xy}&  \sigma _{yy}&  \tau_{yz}\\
                                         \tau_{xz}&  \tau_{yz}&  \sigma_{zz}\\
