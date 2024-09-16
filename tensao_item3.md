@@ -12,10 +12,20 @@ has_children: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Teorema de Cauchy</h1>
+<h1>Princípio de Cauchy</h1>
 
 <p align="justify">
-    De acordo com o Teorema de Cauchy podemos afirmar que as tensões em um ponto de um corpo contínuo podem ser descritas por um tensor de tensões de Cauchy \(\mathbf{\sigma }\), que é um tensor de segunda ordem. Esse tensor relaciona o vetor de tração \(\textbf{T}\left ( \textbf{n} \right )\), que é a força por unidade de área atuando em uma superfície com normal \(\mathbf{\n }\), às tensões internas do material.
+    De acordo com o Princípio de Cauchy podemos afirmar que as tensões em um ponto de um corpo contínuo podem ser descritas por um tensor de tensões de Cauchy \(\mathbf{\sigma }\), que é um tensor de segunda ordem. Esse tensor relaciona o vetor de força \(\textbf{T}\left ( \textbf{n} \right )\), que é a força por unidade de área atuando em uma superfície com normal \(\mathbf{\n }\), às tensões internas do material.
+    <br>
+    <br>
+    Dessa forma, podemos escrever o vetor de força como:
+    <table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \mathbf{T}(n) = \boldsymbol{\sigma} \cdot \mathbf{n} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+    </tr>
+</table>
+
 </p>
 
 <h1>Referências</h1>
