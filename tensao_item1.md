@@ -44,6 +44,15 @@ has_children: false
 <center><img src="assets/images/fig-tensor-1.png" width="70%" height="auto"/></center>
 <p align="left" id="fig-tensor-1"><b>Figura 1.</b> Representação gráfica do tensor de tensões <a href="#ref1">[1]</a>.</p>
 
+{: .highlight-title }
+> CONCEITO
+>
+> Um tensor é uma generalização de vetores e matrizes para dimensões superiores. Ele é uma entidade matemática que pode representar relações lineares entre vetores, escalando e rotacionando-os de acordo com uma certa transformação.
+
+<p align="justify">
+Pode ser difícil visualizar diretamente um tensor de ordem superior, mas pense neles como extensões de vetores e matrizes para várias dimensões. Eles encapsulam informações mais complexas, especialmente em sistemas que requerem múltiplas direções de análise ao mesmo tempo.
+</p>
+
 <h1>Referências</h1>
 
 <table>

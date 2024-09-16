@@ -15,35 +15,45 @@ has_children: false
 <h1>Introdução</h1>
 
 <p align="justify">
-    Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento,
-    momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada por
-    o corpo pode ser idealizado como sendo de extensão insignificante (e, portanto, redutível a um
-    ponto), o corpo é chamado de partícula. Qualquer corpo que não seja redutível a um único
-    partícula será chamada de contínuo <a href="#ref1">[1]</a>.
-    <br><br>
-    Süssekind <a href="#ref2">[2]</a> afirma que existem duas grandezas fundamentais: forças e momentos. Porém para que começemos a analisar os sólidos deformáveis vamos partir da premissa básica de que exista um certo equilíbrio. Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto podemos escrever as equações <a href="#eq1">(1)</a> e <a href="#eq2">(2)</a>:
+    Consideremos um tetraedro com uma face inclinada onde \(\vec{n}\) indica uma direção principal e \(\sigma_0\) a tensão principal que nela atua. As tensões podem ser escritas em termos dos eixos coordenados conforme equações <a href="#eq1">(1)</a> a <a href="#eq3">(3)</a>.
 </p>
+
+<center><img src="assets/images/fig-tensaoprinc-1.png" width="100%" height="auto"/></center>
+<p align="left" id="fig-intro-1"><b>Figura 1.</b> Sólido tetraédrico com direção normal \(\vec{n}\).</p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
+        <td style="width: 90%;">\[ \mathbf{\rho}_x = \sigma _{xx} \, \mathbf{\hat{i}} + \tau _{xy} \, \mathbf{\hat{j}} + \tau _{xz} \, \mathbf{\hat{k}}\]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
     <tr>
-        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
+        <td style="width: 90%;">\[ \mathbf{\rho}_y = \tau _{xy} \, \mathbf{\hat{i}} + \sigma _{yy} \, \mathbf{\hat{j}} + \tau _{yz} \, \mathbf{\hat{k}}\]</td>
         <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \mathbf{\rho}_z = \tau _{xz} \, \mathbf{\hat{i}} + \tau _{yz} \, \mathbf{\hat{j}} + \sigma _{zz} \, \mathbf{\hat{k}}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
     </tr>
 </table>
 
 <p align="justify">
-    Cada um desses vetores pode ser decomposto nas componentes cartesianas \(x\), \(y\) e \(z\). Tal situação permite verificar o equilíbrio em cada uma das direções.
+    Escrevendo a tensão \(\sigma_0\) em termos dso eixos coordenados temos:
 </p>
 
-{: .highlight-title }
-> CONCEITO
->
-> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.  
-> Já o momento é a grandeza que mede a tendência de rotação em torno de um ponto provocada por uma força.
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \mathbf{\rho}_x = \sigma _{xx} \, \mathbf{\hat{i}} = \sigma _{0} \cdot \cos \alpha \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \mathbf{\rho}_y = \sigma _{yy} \, \mathbf{\hat{j}} = \sigma _{0} \cdot \cos \beta \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq5">(5)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \mathbf{\rho}_z = \sigma _{zz} \, \mathbf{\hat{k}} = \sigma _{0} \cdot \cos \gamma \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq6">(6)</p></td>
+    </tr>
+</table>
 
 <p align="justify">
     Em geral as forças são divididas em dois grandes grupos: 
