@@ -15,7 +15,7 @@ has_children: false
 <h1>Teorema de Cauchy</h1>
 
 <p align="justify">
-    De acordo com o Teorema de Cauchy podemos afirmar que as tensões em um ponto de um corpo contínuo podem ser descritas por um tensor de tensões de Cauchy \sigma, que é um tensor de segunda ordem. Esse tensor relaciona o vetor de tração \textbf{T}\left ( \textbf{n} \right ), que é a força por unidade de área atuando em uma superfície com normal nn, às tensões internas do material.
+    De acordo com o Teorema de Cauchy podemos afirmar que as tensões em um ponto de um corpo contínuo podem ser descritas por um tensor de tensões de Cauchy \(\mathbf{\sigma }\), que é um tensor de segunda ordem. Esse tensor relaciona o vetor de tração \(\textbf{T}\left ( \textbf{n} \right )\), que é a força por unidade de área atuando em uma superfície com normal \(\mathbf{\n }\), às tensões internas do material.
 </p>
 
 <h1>Referências</h1>
