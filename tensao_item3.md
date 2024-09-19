@@ -34,7 +34,7 @@ has_children: false
 
 <ul>
   <li>\(\textbf{T}\left ( \textbf{n} \right )\) é o vetor de força de tração, que indica a direção e magnitude da força por unidade de área em um plano com normal \(\mathbf{ n }\);</li>
-  <li>T\(\mathbf{\sigma }\) é o tensor de tensões de Cauchy, que possui 9 componentes (3x3 matriz) que descrevem as tensões normais e de cisalhamento em três direções mutuamente ortogonais;</li>
+  <li>\(\mathbf{\sigma }\) é o tensor de tensões de Cauchy, que possui 9 componentes (3x3 matriz) que descrevem as tensões normais e de cisalhamento em três direções mutuamente ortogonais;</li>
   <li>\(\mathbf{ n }\) é o vetor normal à superfície na qual as tensões estão sendo calculadas.</li>
 </ul>
 
