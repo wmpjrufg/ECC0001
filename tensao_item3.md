@@ -38,7 +38,27 @@ has_children: false
   <li>\(\mathbf{ n }\) é o vetor normal à superfície na qual as tensões estão sendo calculadas.</li>
 </ul>
 
+{: .warning-title }
+> IMPORTANTE
+>
+> Geralmente representamos o Tensor de tensões de Cauchy como uma matriz quadrada 3x3:
 
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \sigma _{ij}=\begin{bmatrix}
+ \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
+ \tau_{xy}&  \sigma _{yy}&  \tau_{yz}\\
+ \tau_{xz}&  \tau_{yz}&  \sigma_{zz}\\
+\end{bmatrix} \]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+    </tr>
+</table>
+
+> Onde:
+
+
+
+de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com seis componentes de tensão.
 
 
 
