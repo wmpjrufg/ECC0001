@@ -67,6 +67,7 @@ has_children: false
 > IMPORTANTE
 >
 > A matriz bla bla bla bla
+> <br>
 > $$ \sigma _{ij}=\begin{bmatrix}
  \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
  \tau_{xy}&  \sigma {yy}&  \tau{yz}\\
