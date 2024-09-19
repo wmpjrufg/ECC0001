@@ -38,10 +38,9 @@ has_children: false
   <li>\(\mathbf{ n }\) é o vetor normal à superfície na qual as tensões estão sendo calculadas.</li>
 </ul>
 
-{: .warning-title }
-> IMPORTANTE
->
-> Geralmente representamos o Tensor de tensões de Cauchy como uma matriz quadrada 3x3:
+<p align="justify">
+    Geralmente representamos o Tensor de tensões de Cauchy como uma matriz quadrada 3x3:      
+</p>
 
 <table style = "width:100%">
     <tr>
@@ -54,12 +53,25 @@ has_children: false
     </tr>
 </table>
 
-> Onde:
+<p align="justify">
+    Onde:
+</p>
+
+<ul>
+  <li>\(\sigma_{xx}\), \(\sigma_{yy}\) e \(\sigma_{zz}\) são as tensões normais nas direções x, y, e z, respectivamente;</li>
+  <li>\(\tau_{xy}\), \(\tau_{yz}\) e \(\tau_{xz}\) são as tensões de cisalhamento entre essas direções.</li>
+ </ul>
 
 
-
-de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com seis componentes de tensão.
-
+{: .warning-title }
+> IMPORTANTE
+>
+> A matriz bla bla bla bla
+> $$ \sigma _{ij}=\begin{bmatrix}
+ \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
+ \tau_{xy}&  \sigma {yy}&  \tau{yz}\\
+ \tau_{xz}&  \tau_{yz}&  \sigma_{zz}\\
+\end{bmatrix} $$
 
 
 <h1>Referências</h1>
