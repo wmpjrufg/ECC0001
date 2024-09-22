@@ -62,19 +62,6 @@ has_children: false
   <li>\(\tau_{xy}\), \(\tau_{yz}\) e \(\tau_{xz}\) são as tensões de cisalhamento entre essas direções.</li>
  </ul>
 
-
-{: .warning-title }
-> IMPORTANTE
->
-> A matriz bla bla bla bla
-> <br>
-> $$ \sigma _{ij}=\begin{bmatrix}
- \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
- \tau_{xy}&  \sigma {yy}&  \tau{yz}\\
- \tau_{xz}&  \tau_{yz}&  \sigma_{zz}\\
-\end{bmatrix} $$
-
-
 <h1>Referências</h1>
 
 <table>
