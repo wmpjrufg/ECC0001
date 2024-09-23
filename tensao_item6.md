@@ -20,12 +20,12 @@ has_children: false
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ h_{ij} = \frac{1}{3} \cdot \(left \sigma_1 + \sigma_2 + \sigma_3 \right) \]</td>
+        <td style="width: 90%;">\[ h_{ij} = \frac{1}{3} \cdot \left( \sigma_{xx} + \sigma_{yy} + \sigma_{zz} \right) \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">
-                                \[ \sigma _{ij}=\begin{bmatrix}
+                                \[ \h_{ij}=\begin{bmatrix}
                                 \sigma_m &  0 &  0 \\
                                 0 & \sigma _m &  0 \\
                                 0 &  0 &  \sigma_m \\
