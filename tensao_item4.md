@@ -2,7 +2,7 @@
 title: Tensão de cisalhamento
 parent: Tensão
 layout: home
-nav_order: 1
+nav_order: 4
 has_toc: false
 has_children: false
 ---
@@ -15,7 +15,7 @@ has_children: false
 <h1>Cisalhamento puro</h1>
 
 <p align="justify">
-    Um estado de cisalhamento puro é dado pela condição \(\sigma_{xx}=sigma_{yy}=\sigma_{zz}=0\). Na representação tensorial o estado de cisalhamento puro é dado por:
+    Um estado de cisalhamento puro é dado pela condição \(\sigma_{xx}=\sigma_{yy}=\sigma_{zz}=0\). Na representação tensorial o estado de cisalhamento puro é dado por:
 </p>
 
 <table style = "width:100%">
