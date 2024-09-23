@@ -58,6 +58,70 @@ has_children: false
     </tr>
 </table>
 
+<p align="justify">
+   É sempre muito importante conheecer os valores que extremizam a função de tensão. Para isso aplicamos o mesmo conceito da seção de tensões e então verificamos o determinante do tensor de tensões para o estado plano. Conforme descrito na equação <a href="#eq4">(4)</a> onde \(\sigma_e\) representa tensão principal a ser determinada.
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">
+                                \[ \left| 
+                                \begin{matrix}
+                                \sigma_{xx} - \sigma_e & \tau_{xy} \\
+                                \tau_{xy} & \sigma_{yy} - \sigma_e 
+                                \end{matrix} 
+                                \right| = 0
+                                \]
+        </td>
+        <td style="width: 10%;"><p align = "right" id = "eq4">(4)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">
+                                \[ \sigma_e^2 - (\sigma_{xx} + \sigma_{yy})\sigma_e + \sigma_{xx}\sigma_{yy} - \tau_{xy}^2 = 0
+ \]
+        </td>
+        <td style="width: 10%;"><p align = "right" id = "eq5">(5)</p></td>
+    </tr>
+</table>
+
+<p align="justify">
+   Com isso chegamos facilmente as conhecidas equações de tensões normais máximas e mínimas atuante.
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">
+                                \[ 
+                                    \begin{cases}
+\sigma_1 = \frac{\sigma_{xx} + \sigma_{yy}}{2} + \sqrt{\left( \frac{\sigma_{xx} - \sigma_{yy}}{2} \right)^2 + \tau_{xy}^2} \\
+\sigma_3 = \frac{\sigma_{xx} + \sigma_{yy}}{2} - \sqrt{\left( \frac{\sigma_{xx} - \sigma_{yy}}{2} \right)^2 + \tau_{xy}^2}
+\end{cases}
+                                \]
+        </td>
+        <td style="width: 10%;"><p align = "right" id = "eq6">(6)</p></td>
+    </tr>
+</table>
+
+<p align="justify">
+   Para chegar a máxima tensão de cisalhamento aplica-se o conceito de derivada em função do ângulo \(\alpha\). Logo fazendo \(\dfrac{d(\sigma_n)}{d\alpha}\)
+</p>
+
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">
+                                \[ \frac{d\sigma_n}{d\alpha} = 0 \rightarrow -2 \frac{\sigma_{xx} - \sigma_{yy}}{2} \sin 2\alpha + 2\tau_{xy} \cos 2\alpha = 0
+                                \]
+        </td>
+        <td style="width: 10%;"><p align = "right" id = "eq7">(7)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">
+                                \[ \tan 2\alpha = \frac{2\tau_{xy}}{\sigma_{xx} - \sigma_{yy}} \]
+        </td>
+        <td style="width: 10%;"><p align = "right" id = "eq8">(8)</p></td>
+    </tr>
+</table>
+
 <h1>Referências</h1>
 
 <table>
