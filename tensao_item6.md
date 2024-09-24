@@ -45,7 +45,7 @@ has_children: false
                                     \left(\sigma _{xx} - \sigma_m\right)&  \tau_{xy} &  \tau_{xz}\\
                                     \tau_{xy}&  \left(\sigma_{yy} - \sigma_m\right) &  \tau_{yz}\\
                                     \tau_{xz}&  \tau_{yz}&  \left(\sigma_{zz} - \sigma_m\right)\\
-                                    \end{bmatrix}  = 0 \]</td>
+                                    \end{bmatrix} \]</td>
         <td style="width: 10%;"><p align = "right" id = "eq3">(3)</p></td>
     </tr>
 </table>
