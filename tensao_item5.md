@@ -1,5 +1,5 @@
 ---
-title: Definição Matemática das Tensões Octaédricas
+title: Tensões Octaédricas
 parent: Tensão
 layout: home
 nav_order: 5
@@ -12,7 +12,7 @@ has_children: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Introdução</h1>
+<h1>Descrição das Tensões Octaédricas</h1>
 
 <p align="justify">
     Podemos definir as tensões octaédricas como tensões que atuam em planos inclinados a 45 graus em relação aos eixos principais de tensão, fornecendo uma maneira invariável de descrever o estado de tensão em um ponto. Elas são compostas pela tensão normal octaédrica e pela tensão de cisalhamento octaédrica, as quais têm importante aplicação em análises estruturais e materiais.
