@@ -1,6 +1,6 @@
 ---
-title: Deformações principais
-parent: Deformação
+title: Lei de hooke generalizada
+parent:  Comportamento do material
 layout: home
 nav_order: 1
 has_toc: false
@@ -13,7 +13,7 @@ has_children: false
 <!--Don't delete this script-->
 
 <p align="justify">
-    Tal como a análise de tensões, num ponto de um sólido em estado de defomrações existem três direçõesortogonais (direções principais) em relação às quais a distorção é nula (ou seja, os segmentos elementares nestas direções permanecem perpendiculares após a deformação). As deformações destas direção são dadas por \( \varepsilon _1, \varepsilon _2\;\text{e}\;\varepsilon _3\). A equação <a href="#eq1">(1)</a>, caracterizada por ser uma equação algébrica do terceiro grau, possui três raízes que caracterizam as deformações principais. 
+    Tal como a análise de tensões, num ponto de um sólido em estado de defomrações existem três direçõesortogonais (direções principais) em relação às quais a distorção é nula (ou seja, os segmentos elementares nestas direções permanecem perpendiculares após a deformação). As deformações destas direção são dadas por \( \epsilon _1, \epsilon _2\;\text{e}\;\epsilon _3\). A equação <a href="#eq1">(1)</a>, caracterizada por ser uma equação algébrica do terceiro grau, possui três raízes que caracterizam as deformações principais. 
 </p>
 
 <table style = "width:100%">
