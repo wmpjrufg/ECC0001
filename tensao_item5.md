@@ -15,24 +15,17 @@ has_children: false
 <h1>Introdução</h1>
 
 <p align="justify">
-    Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento,
-    momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada por
-    o corpo pode ser idealizado como sendo de extensão insignificante (e, portanto, redutível a um
-    ponto), o corpo é chamado de partícula. Qualquer corpo que não seja redutível a um único
-    partícula será chamada de contínuo <a href="#ref1">[1]</a>.
-    <br><br>
-    Süssekind <a href="#ref2">[2]</a> afirma que existem duas grandezas fundamentais: forças e momentos. Porém para que começemos a analisar os sólidos deformáveis vamos partir da premissa básica de que exista um certo equilíbrio. Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto podemos escrever as equações <a href="#eq1">(1)</a> e <a href="#eq2">(2)</a>:
+    Podemos definir as tensões octaédricas como tensões que atuam em planos inclinados a 45 graus em relação aos eixos principais de tensão, fornecendo uma maneira invariável de descrever o estado de tensão em um ponto. Elas são compostas pela tensão normal octaédrica e pela tensão de cisalhamento octaédrica, as quais têm importante aplicação em análises estruturais e materiais.
+    <br>
+    <br>
+    Dessa forma, estabelecemos a tensão normal octaédrica (\(\sigma_{oct}\)​) como a média das tensões principais:
 </p>
 
 <table style = "width:100%">
-    <tr>
-        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
-    </tr>
+<tr>
+    <td style="width: 90%;">\[\sigma_{\text{oct}} = \frac{\sigma_1 + \sigma_2 + \sigma_3}{3}\]</td>
+    <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+</tr>
 </table>
 
 <p align="justify">
