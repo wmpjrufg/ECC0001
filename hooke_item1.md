@@ -1,6 +1,6 @@
 ---
 title: Lei de Hooke generalizada
-parent:  Comportamento do material
+parent:  Lei de Hooke
 layout: home
 nav_order: 1
 has_toc: false

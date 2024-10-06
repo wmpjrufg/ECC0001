@@ -1,5 +1,5 @@
 ---
-title: Comportamento do material
+title: Lei de Hooke
 layout: home
 nav_order: 4
 has_toc: true
