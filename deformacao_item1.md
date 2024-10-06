@@ -1,5 +1,5 @@
 ---
-title: def1
+title: Deformações principais
 parent: Deformação
 layout: home
 nav_order: 1
@@ -12,11 +12,8 @@ has_children: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Descrição do Tensor de Tensões</h1>
-
 <p align="justify">
-    Podemos definir o estado de tensões em um ponto de um sólido, ou em uma partícula de dimensões desprezíveis, como um tensor cartesiano composto por nove componentes (equação <a href="#eq1">1</a>) relativas a três planos ortogonais que determinam as tensões em qualquer plano passando por esse ponto, sendo três tensões normais e seis tensões tangenciais. Portanto, podemos considerar o conjunto das nove componentes de tensão como um tensor de segunda ordem, onde a sua representação gráfica está descrita na Figura <a href="#fig-tensor-1">1</a>.
-   
+    Tal como a análise de tensões, num ponto de um sólido em estado de defomrações existem três direçõesortogonais (direções principais) em relação às quais a distorção é nula (ou seja, os segmentos elementares nestas direções permanecem perpendiculares após a deformação). As deformações destas direção são dadas por \( \epsilon _1, \epsilon _2 e \epsilon _3\). A equação <a href="#eq1">(1)</a>, caracterizada por ser uma equação algébrica do terceiro grau, possui três raízes que caracterizam as deformações principais. 
 </p>
 
 {: .warning-title }
@@ -25,14 +22,41 @@ has_children: false
 > O tensor de tensões é simétrico, ou seja, $$\sigma _{ij}=\sigma _{ji}$$, e dessa maneira podemos definir o estado plano de tensões em um ponto somente com seis componentes de tensão.
 
 <table style = "width:100%">
+<table style="width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sigma _{ij}=\begin{bmatrix}
- \sigma_{xx}&  \tau_{xy}&  \tau_{xz}\\
- \tau_{xy}&  \sigma _{yy}&  \tau_{yz}\\
- \tau_{xz}&  \tau_{yz}&  \sigma_{zz}\\
-\end{bmatrix} \]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+        <td style="width: 90%;">\[ \varepsilon_o^3 - J_1 \varepsilon_o^2 + J_2 \varepsilon_o - J_3 = 0 \]</td>
+        <td style="width: 10%;"><p align="right" id="eq7">(2.10)</p></td>
     </tr>
+    <tr>
+        <td style="width: 90%;">\[ J_1 = \varepsilon_x + \varepsilon_y + \varepsilon_z \]</td>
+        <td style="width: 10%;"><p align="right" id="eq8">(2.11)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">
+        \[
+        J_2 = 
+        \begin{vmatrix}
+        \varepsilon_x & \gamma_{xy} & \gamma_{xz} \\
+        \gamma_{xy} & \varepsilon_y & \gamma_{yz} \\
+        \gamma_{xz} & \gamma_{yz} & \varepsilon_z 
+        \end{vmatrix}
+        \]
+        </td>
+        <td style="width: 10%;"><p align="right" id="eq9">(2.11)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">
+        \[
+        J_3 = 
+        \begin{vmatrix}
+        \varepsilon_x & \gamma_{xy} & \gamma_{xz} \\
+        \gamma_{xy} & \varepsilon_y & \gamma_{yz} \\
+        \gamma_{xz} & \gamma_{yz} & \varepsilon_z
+        \end{vmatrix}
+        \]
+        </td>
+        <td style="width: 10%;"><p align="right" id="eq10">(2.11)</p></td>
+   </tr>
 </table>
 
 {: .warning-title }
