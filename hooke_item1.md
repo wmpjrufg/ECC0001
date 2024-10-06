@@ -40,16 +40,57 @@ has_children: false
 </p>
 
 <p align="justify">
-    Vamos agora escrever o efeito de Poisson as deformações de um sólido tridimensional conforme descrito na Figura <a href="#fig-hookegen-1">1</a>.
+    Vamos agora escrever o efeito de Poisson nas deformações de um sólido tridimensional conforme descrito na Figura <a href="#fig-hookegen-1">1</a>.
 </p>
 
 <center><img src="assets/images/fig-hookegen-1.png" width="90%" height="auto"/></center>
 <p align="left" id="fig-hooke-1"><b>Figura 1.</b> Visualização gráfica do conceito de Poisson.</p>
 
+<table style="width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \varepsilon_x = \frac{\sigma_x}{E} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \varepsilon_y = - \nu \frac{\sigma_x}{E} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \varepsilon_z = - \nu \frac{\sigma_x}{E} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+</table>
+
 <p align="justify">
-    Dada uma carga P atuante no sólido podemos reescrever as deformações na direções y e z conforme direção.
+    Consideração a superposição dos efeitos e um estado tridimensionais de tensões, chega-se as equações de deformações completas:
 </p>
 
+<table style="width:100%">
+    <tr>
+        <td style="width: 90%;">\[ \varepsilon_x = \frac{1}{E} \left( \sigma_x - \nu \sigma_y - \nu \sigma_z \right) \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \varepsilon_y = \frac{1}{E} \left( \sigma_y - \nu \sigma_z - \nu \sigma_x \right) \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \varepsilon_z = \frac{1}{E} \left( \sigma_z - \nu \sigma_x - \nu \sigma_y \right) \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \gamma_{xy} = \frac{1}{G} \tau_{xy} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \gamma_{yz} = \frac{1}{G} \tau_{yz} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[ \gamma_{zx} = \frac{1}{G} \tau_{zx} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+</table>
 
 <h1>Referências</h1>
 
