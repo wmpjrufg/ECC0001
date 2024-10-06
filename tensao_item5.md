@@ -63,7 +63,7 @@ has_children: false
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left"><a href="https://doi.org/10.1007/978-3-319-18878-2" target="_blank" rel="noopener noreferrer">Ugural, A. C., & Fenster, S. K. (2012). Advanced Strength and Applied Elasticity. Prentice Hall.</a></p></td>
+            <td><p align = "left">Ugural, A. C., & Fenster, S. K. (2012). Advanced Strength and Applied Elasticity. Prentice Hall.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
