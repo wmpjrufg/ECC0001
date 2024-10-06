@@ -29,8 +29,16 @@ has_children: false
 </table>
 
 <p align="justify">
-    Cada um desses vetores pode ser decomposto nas componentes cartesianas \(x\), \(y\) e \(z\). Tal situação permite verificar o equilíbrio em cada uma das direções.
+    Para o plano octaédrico, a equação da tensão de cisalhamento é derivada das diferenças entre as tensões principais, onde é deduzida a partir do fato de que as tensões cisalhantes em planos inclinados dependem das diferenças entre as tensões principais atuando ao longo dos diferentes eixos:
 </p>
+
+<table style = "width:100%">
+<tr>
+    <td style="width: 90%;">\[\tau_{\text{oct}} = \frac{1}{3}\sqrt{(\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2}\]</td>
+    <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+</tr>
+</table>
+
 
 {: .highlight-title }
 > CONCEITO
