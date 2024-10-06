@@ -1,5 +1,5 @@
 ---
-title: Lei de hooke generalizada
+title: Lei de Hooke generalizada
 parent:  Comportamento do material
 layout: home
 nav_order: 1
