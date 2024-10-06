@@ -35,7 +35,7 @@ has_children: false
 <table style = "width:100%">
 <tr>
     <td style="width: 90%;">\[\tau_{\text{oct}} = \frac{1}{3}\sqrt{(\sigma_1 - \sigma_2)^2 + (\sigma_2 - \sigma_3)^2 + (\sigma_3 - \sigma_1)^2}\]</td>
-    <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+    <td style="width: 10%;"><p align = "right" id = "eq1">(2)</p></td>
 </tr>
 </table>
 
