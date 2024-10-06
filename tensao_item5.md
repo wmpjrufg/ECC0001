@@ -1,5 +1,5 @@
 ---
-title: Tensões Octaédricas
+title: Definição Matemática das Tensões Octaédricas
 parent: Tensão
 layout: home
 nav_order: 5
