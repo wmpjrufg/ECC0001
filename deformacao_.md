@@ -14,18 +14,39 @@ has_children: true
 <h1>Generalização do Conceito de Tensão</h1>
 
 <p align="justify"> 
-    Consideremos um sólido seccionado na seção <i>S</i> sujeito a um sistema de forças conforme descrito na Figura <a href="#fig-tensao-1">1</a>. Consideremos que uma parcela infinitesimal \(d\mathbf{F}^*\) e \(d\mathbf{M}^*\) atuem em uma área \(dA\) que possui um vetor normal  \( \vec{\mathbf{n}} \). Dada que a relação \(d\mathbf{M}^*/dA → 0\) podemos escrever a equação <a href="#eq1">(1)</a> que define a tensão nesse ponto O.
+    Nas seções anteriores fizemos a extensão do conceito de tensões e agora o mesmo ponto de vista será aplicado ao conceito de deformações. Observando a Figura <a href="#fig1">1</a> são obtidas as expressões de deformação.
 </p>
 
-<center><img src="assets/images/fig-tensao-1.png" width="60%" height="auto"/></center>
-<p align="left" id="fig-intro-1"><b>Figura 1.</b> Seção esquerda de um sólido onde atuam as grandezas infinitesimais \(d\mathbf{F}^*\) e \(d\mathbf{M}^*\) <a href="#ref1">[1]</a>.</p>
+<center><img src="assets/images/fig-deform-1.png" width="70%" height="auto"/></center>
+<p align="left" id="fig-intro-1"><b>Figura 1.</b> Vista do plano xy de um sólido deformável sujeito a um campo de deslocamento.</p>
 
-<table style = "width:100%">
+<table style="width:100%">
     <tr>
-        <td style="width: 90%;">\[ \mathbf{T}_n = \frac{d\mathbf{F}^*}{dA} \]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
+        <td style="width: 90%;">\[\varepsilon_x = \frac{\partial u}{\partial x}\]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[\varepsilon_y = \frac{\partial v}{\partial y}\]</td>
+        <td style="width: 10%;"><p align="right" id="eq2">(2)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[\varepsilon_z = \frac{\partial w}{\partial z}\]</td>
+        <td style="width: 10%;"><p align="right" id="eq3">(3)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[\gamma_{xy} = \frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}\]</td>
+        <td style="width: 10%;"><p align="right" id="eq4">(4)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[\gamma_{xz} = \frac{\partial u}{\partial z} + \frac{\partial w}{\partial x}\]</td>
+        <td style="width: 10%;"><p align="right" id="eq5">(5)</p></td>
+    </tr>
+    <tr>
+        <td style="width: 90%;">\[\gamma_{yz} = \frac{\partial v}{\partial z} + \frac{\partial w}{\partial y}\]</td>
+        <td style="width: 10%;"><p align="right" id="eq6">(6)</p></td>
     </tr>
 </table>
+
 
 {: .highlight-title }
 > CONCEITO
