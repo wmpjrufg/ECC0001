@@ -29,6 +29,17 @@ has_children: true
     </tr>
 </table>
 
+<p align="justify"> 
+    Podemos escrever também a lei de Hooke para deformações de cisalhamento. A relação é dada pela equação <a href="#eq2">(2)</a>.
+</p>
+
+<table style="width:100%">
+    <tr>
+        <td style="width: 90%;">\[\tau = G \cdot \gamma \]</td>
+        <td style="width: 10%;"><p align="right" id="eq2">(2)</p></td>
+    </tr>
+</table>
+
 <h1>Referências</h1>
 
 <table>
