@@ -92,6 +92,54 @@ has_children: false
     </tr>
 </table>
 
+<p align="justify">
+    É possível estabelecer uma relação entre os módulos de deformação axial e de distorção conforme equação <a href="#eq11">(11)</a>:
+</p>
+
+<table style="width:100%">
+    <tr>
+        <td style="width: 90%;">\[ G = \frac{E}{2 \cdot \left(1+\nu\right)} \]</td>
+        <td style="width: 10%;"><p align="right" id="eq1">(11)</p></td>
+    </tr>
+</table>
+
+<p align="justify">
+    Com as equações de <a href="#eq1">(1)</a> a <a href="#eq11">(11)</a> e possível escrever as relações entre tensões e deformações considerando um estado tridimensional.
+</p>
+
+<table style="width:100%">
+    <tr>
+        <td style="width: 90%;">
+        \[
+        \begin{pmatrix}
+        \sigma_{xx} \\ \sigma_{yy} \\ \sigma_{zz} \\ \tau_{xy} \\ \tau_{xz} \\ \tau_{yz}
+        \end{pmatrix}
+        =
+        \textcolor{red}{
+        \frac{E}{(1 + \nu)(1 - 2 \nu)}
+        \cdot
+        \begin{bmatrix}
+        1 - \nu & \nu & \nu & 0 & 0 & 0 \\
+        \nu & 1 - \nu & \nu & 0 & 0 & 0 \\
+        \nu & \nu & 1 - \nu & 0 & 0 & 0 \\
+        0 & 0 & 0 & \frac{1 - 2\nu}{2} & 0 & 0 \\
+        0 & 0 & 0 & 0 & \frac{1 - 2\nu}{2} & 0 \\
+        0 & 0 & 0 & 0 & 0 & \frac{1 - 2\nu}{2}
+        \end{bmatrix}
+        }
+        \cdot
+        \begin{pmatrix}
+        \varepsilon_{xx} \\ \varepsilon_{yy} \\ \varepsilon_{zz} \\ \gamma_{xy} \\ \gamma_{xz} \\ \gamma_{yz}
+        \end{pmatrix}
+        \]
+        </td>
+        <td style="width: 10%;">
+            <p align="right" id="eq12">(12)</p>
+        </td>
+    </tr>
+</table>
+
+
 <h1>Referências</h1>
 
 <table>
