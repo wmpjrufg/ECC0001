@@ -35,7 +35,6 @@ has_children: false
     <tr>
         <td style="width: 90%;">\[\sigma_h = \frac{\sigma_1 + \sigma_2 + \sigma_3}{3}\]</td>
         <td style="width: 10%;"><p align = "right" id = "eq1">(2)</p></td>    </tr>
-
 </table>
 
 <p align="justify">
@@ -44,27 +43,26 @@ has_children: false
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[\mathbf{T} = \sigma \mathbf{n}\]
+        <td style="width: 90%;">\[\mathbf{T_h} = \sigma_h \mathbf{n}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(3)</p></td>    </tr>
 </table>
 
 <p align="justify">
-    Na Figura <a href="#fig-intro-1">1a</a> podemos verificar uma força de superfície agindo. Considerando que este elemento está tracionado poderiamos dizer que a força \( \vec{P} \) representa a massa de um corpo que é suportado pelo tirante. Já as Figuras <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a> representam as forças de corpo sendo que em <a href="#fig-intro-1">1b</a> seria o próprio peso do elemento estrutural sujeito a ação da gravidade e <a href="#fig-intro-1">1c</a> a ação de uma força magnética de um imã.
+    Dessa maneira, como a tensão hidrostática (\(\sigma_{h}\))​ é igual em todas as direções, observamos que o vetor de tensões (\(\mathbf{T_{h}}\))​ é o mesmo independentemente da orientação do plano, o que resulta em uma compressão ou expansão uniforme do material.
 </p>
 
-<center><img src="assets/images/fig-intro-1.png" width="100%" height="auto"/></center>
-<p align="left" id="fig-intro-1"><b>Figura 1.</b> Exemplos de forças de corpo e superfície <a href="#ref3">[3]</a>.</p>
-
 <p align="justify">
-    Em termos de representação as forças podem ser:
+    Por outro lado, o estado desviador refere-se à parte do estado de tensão que causa distorção no material, ou seja, altera a forma sem mudar o volume. O vetor de tensões no estado desviador é obtido ao subtrair a tensão hidrostática do tensor de tensões original. O tensor das tensões desviadoras (\(\sigma'_{ij}\))​ é calculado como:
 </p>
 
-<ul>
-    <li>Forças concentradas</li>
-    <li>Forças distribuídas</li>
-</ul>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[\sigma'_{ij} = \sigma_{ij} - \sigma_h \delta_{ij}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(4)</p></td>    </tr>
+</table>
 
 <p align="justify">
-    Para introduzir o conceito de tensão em uma forma mais ampla precisamos determinar os esforços internos que ocorrem no interior de um sólido. Para isso vejamos o conjunto barra-cabo da Figura <a href="#fig-intro-2">2</a>.  
+    onde \\sigma'_{ij}\​ é o delta de Kronecker, que vale 1 quando i=j e 0 quando i≠ji=j. O vetor de tensões no estado desviador TdTd​ é responsável pelas deformações distorcidas e pode ser expresso por:  
 </p>
 
 <center><img src="assets/images/fig-intro-2.png" width="60%" height="auto"/></center>
