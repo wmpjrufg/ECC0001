@@ -62,32 +62,17 @@ has_children: false
 </table>
 
 <p align="justify">
-    onde \\sigma'_{ij}\​ é o delta de Kronecker, que vale 1 quando i=j e 0 quando i≠ji=j. O vetor de tensões no estado desviador TdTd​ é responsável pelas deformações distorcidas e pode ser expresso por:  
+    onde \(\sigma'_{ij}\)​ é o delta de Kronecker, que vale 1 quando \(i=j\) e 0 quando \(i\neq j\). O vetor de tensões no estado desviador (\(\mathbf{T_{d}}\))​ é responsável pelas deformações distorcidas e pode ser expresso por:  
 </p>
 
-<center><img src="assets/images/fig-intro-2.png" width="60%" height="auto"/></center>
-<p align="left" id="fig-intro-2"><b>Figura 2.</b> Conjunto barra-cabo submetido a uma força de 18 kN <a href="#ref3">[3]</a>.</p>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[\mathbf{T_d} = \sigma' \mathbf{n}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(5)</p></td>    </tr>
+</table>
 
-<p align="justify">
-    Dado que um sistema de forças, atuando sobre um corpo, encontra equilíbrio através das reações de apoio que ele provoca <a href="#ref2">[2]</a> poderiamos nos fazer a seguinte pergunta: O que ocorre no interior deste corpo?
-    <br><br> 
-    Para responder essa pergunta precisamos cortar uma seção <i>S</i> em um sólido de geometria hipótetica conforme descrito na Figura <a href="#fig-intro-3">3</a>. O que encontrariamos nas suas seções?
-</p>
 
-<center><img src="assets/images/fig-intro-3.png" width="60%" height="auto"/></center>
-<p align="left" id="fig-intro-3"><b>Figura 3.</b> Corpo deformável cortado por uma seção <i>S</i> <a href="#ref4">[4]</a>.</p>
 
-<p align="justify">
-    Para ser possível a divisão entre as partes, preservando o equilíbrio das mesmas, é necessário que apliquemos a seção <i>S<sub>E</sub></i>, por exemplo, um sistema estático equivalente \( \left( \vec{M} \; \text{e} \; \vec{R} \right) \) aos das forças atuantes na parte <i>S<sub>D</sub></i>. Isto vale de maneira analoga para parcela da direita <a href="#ref2">[2]</a>. Logo podemos visualizar essas seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> separadamente conforme Figura <a href="#fig-intro-4">4</a>.
-</p>
-
-<center><img src="assets/images/fig-intro-4.png" width="70%" height="auto"/></center>
-<p align="left" id="fig-intro-4"><b>Figura 4.</b> Seções <i>S<sub>E</sub></i> e <i>S<sub>D</sub></i> de um sólido deformável <a href="#ref2">[2]</a>.</p>
-
-{: .highlight-title }
-> CONCEITO
->
-> Portanto os esforços internos são forças e momentos que resultam da ação de forças externas sobre um sólido deformável qualquer e são responsáveis por manter o equilíbrio entre as porções deste sólido. Logo estes esforços internos podem ser decompostos em outros vetores de forças e momentos dando origem a forças normais, de cisalhamento, momentos fletores, etc.
 
 <h1>Referências</h1>
 
@@ -101,24 +86,24 @@ has_children: false
     <tbody>
         <tr>
             <td><p align = "center" id = "ref1">[1]</p></td>
-            <td><p align = "left"><a href="https://doi.org/10.1007/978-3-319-18878-2" target="_blank" rel="noopener noreferrer">Lubliner J, Papadopoulos P. Introduction to Solid Mechanics: An Integrated Approach. Cham: Springer International Publishing; 2017.</a></p></td>
+            <td><p align = "left">Ugural, A. C., & Fenster, S. K. (2012). Advanced Strength and Applied Elasticity. Prentice Hall.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref2">[2]</p></td>
-            <td><p align = "left">Süssekind JC. Curso de análise estrutural: estruturas isostáticas. vol. 1, 11. ed. São Paulo: Globo, 1991. 3v. ISBN 852502267.</p></td>
+            <td><p align = "left">Timoshenko, S. P., & Goodier, J. N. (1970). Theory of Elasticity. McGraw-Hill.</p></td>
         </tr>
         <tr>
             <td><p align = "center" id = "ref3">[3]</p></td>
-            <td><p align = "left">Parnes R. Solid mechanics in engineering. Chichester: Wiley; 2001.</p></td>
+            <td><p align = "left">Mase, G. E., Mase, G. T., & Smelser, R. E. (2009). Continuum Mechanics for Engineers. CRC Press.</p></td>
         </tr>
         <tr>
-            <td><p align = "center" id = "ref4">[4]</p></td>
-            <td><p align = "left">Vilaça SF, Taborda LF. Introducao à Teoria da Elasticidade. Rio de Janeiro: COPPE - UFRJ; 1998.</p></td>
-        </tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left">Malvern, L. E. (1969). Introduction to the Mechanics of a Continuous Medium. Prentice Hall.</p></td>
+        </tr> 
         <tr>
-            <td><p align = "center" id = "ref5">[5]</p></td>
-            <td><p align = "left">Shames IH, Pitarresi JM. Introduction to solid mechanics. 3rd ed. Upper Saddle River, NJ: Prentice Hall; 2000.</p></td>
-        </tr>
+            <td><p align = "center" id = "ref3">[3]</p></td>
+            <td><p align = "left">Love, A. E. H. (1927). A Treatise on the Mathematical Theory of Elasticity. Cambridge University Press.</p></td>
+        </tr> 
     </tbody>
 </table>
 
