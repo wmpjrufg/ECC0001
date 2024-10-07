@@ -139,6 +139,36 @@ has_children: false
     </tr>
 </table>
 
+<p align="justify">
+    Os elementos destacados em cores representam a matriz constitutiva do material. Além disso é possível chegar em estados mais reduzidos dessas matrizes como por exemplo quando se emprega um estado plano de tensão. O sistema pode ser reduzido a uma matriz 3 x 3 conforme equação <a href="#eq13">(13)</a>.
+</p>
+
+<table style="width:100%">
+    <tr>
+        <td style="width: 90%;">
+        \[
+        \begin{pmatrix}
+        \sigma_{xx} \\ \sigma_{yy} \\ \tau_{xy}
+        \end{pmatrix}
+        =
+        \frac{E}{(1 - \nu^2)}
+        \cdot
+        \begin{bmatrix}
+        1 & \nu & 0 \\
+        \nu & 1 & 0 \\
+        0 & 0 & \frac{(1 - \nu)}{2}
+        \end{bmatrix}
+        \cdot
+        \begin{pmatrix}
+        \varepsilon_{xx} \\ \varepsilon_{yy} \\ \gamma_{xy}
+        \end{pmatrix}
+        \]
+        </td>
+        <td style="width: 10%;">
+            <p align="right" id="eq13">(13)</p>
+        </td>
+    </tr>
+</table>
 
 <h1>Referências</h1>
 
