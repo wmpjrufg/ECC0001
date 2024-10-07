@@ -115,9 +115,9 @@ has_children: false
         \sigma_{xx} \\ \sigma_{yy} \\ \sigma_{zz} \\ \tau_{xy} \\ \tau_{xz} \\ \tau_{yz}
         \end{pmatrix}
         =
+        \textcolor{red}{
         \frac{E}{(1 + \nu)(1 - 2 \nu)}
         \cdot
-        \textcolor{red}{
         \begin{bmatrix}
         1 - \nu & \nu & \nu & 0 & 0 & 0 \\
         \nu & 1 - \nu & \nu & 0 & 0 & 0 \\
