@@ -42,7 +42,7 @@ has_children: false
 <ul>
   <li>\(\sigma_{xx}\), \(\sigma_{yy}\) e \(\sigma_{zz}\) são as tensões normais nas direções x, y, e z, respectivamente;</li>
   <li>\(\tau_{xy}\), \(\tau_{yz}\) e \(\tau_{xz}\) são as tensões de cisalhamento entre essas direções;</li>
-  <li>\(f_{x}), \(f_{y}) e \(f_{z}) são as componentes da força de volume por unidade de volume (como forças gravitacionais) nas direções x, y, e z.</li>
+  <li>\(f_{x}\), \(f_{y}\) e \(f_{z}\) são as componentes da força de volume por unidade de volume (como forças gravitacionais) nas direções x, y, e z.</li>
  </ul>
 
 <p align="justify">
