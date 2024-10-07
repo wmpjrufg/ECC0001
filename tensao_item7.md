@@ -15,7 +15,7 @@ has_children: false
 <h1>Princípios Fundamentais</h1>
 
 <p align="justify">
-    Nos estudos de Mecânica dos Sólidos, as equações de equilíbrio são baseadas no princípio de que a soma das forças atuando em um pequeno elemento de volume deve ser zero para que o corpo esteja em equilíbrio estático. Estas forças incluem tanto as tensões internas que atuam sobre as faces do elemento quanto as forças de volume (como a gravidade) que atuam em todo o corpo.
+    Nos estudos de <b>Mecânica dos Sólidos</b>, as equações de equilíbrio são baseadas no princípio de que a soma das forças atuando em um pequeno elemento de volume deve ser zero para que o corpo esteja em equilíbrio estático. Estas forças incluem tanto as tensões internas que atuam sobre as faces do elemento quanto as forças de volume (como a gravidade) que atuam em todo o corpo.
     <br><br>
     Se considerarmos um elemento infinitesimal retangular em um ponto no espaço, as tensões atuando ao longo de cada uma das três direções coordenadas podem ser descritas pelas componentes de tensão normal (\(\sigma_{xx}\), \(\sigma_{yy}\) e \(\sigma_{zz}\)​) e pelas componentes de tensão de cisalhamento (\(\tau_{xy}\), \(\tau_{yz}\) e \(\tau_{xz}\)​):
 </p>
@@ -65,7 +65,7 @@ has_children: false
 </table>
 
 <p align="justify">
-    Na Mecânica do Contínuo, tratamos as equações de equilíbrio de forma mais geral, considerando que o corpo em questão pode estar sujeito a deformações grandes ou pequenas. As equações diferenciais de equilíbrio descritas anteriormente permanecem válidas para qualquer meio contínuo, e sua solução depende das condições de contorno e das propriedades do material, como a elasticidade ou plasticidade.
+    Na <b>Mecânica do Contínuo</b>, tratamos as equações de equilíbrio de forma mais geral, considerando que o corpo em questão pode estar sujeito a deformações grandes ou pequenas. As equações diferenciais de equilíbrio descritas anteriormente permanecem válidas para qualquer meio contínuo, e sua solução depende das condições de contorno e das propriedades do material, como a elasticidade ou plasticidade.
     <br><br> 
     Essas equações também se integram às equações constitutivas, que relacionam as tensões às deformações de acordo com o comportamento do material, como no caso da Lei de Hooke para materiais elásticos.
 </p>
