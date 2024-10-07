@@ -1,5 +1,5 @@
 ---
-title: Representação Geométrica de Tensões
+title: Representação Geométrica
 parent: Tensão
 layout: home
 nav_order: 9
@@ -12,41 +12,34 @@ has_children: false
 <script id = "MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <!--Don't delete this script-->
 
-<h1>Introdução</h1>
+<h1>Representação Geométrica do Estado de Tensão</h1>
 
 <p align="justify">
-    Um corpo, para efeitos da mecânica, é uma porção de matéria que, num determinado momento,
-    momento no tempo, ocupa uma determinada região do espaço. Se a região ocupada por
-    o corpo pode ser idealizado como sendo de extensão insignificante (e, portanto, redutível a um
-    ponto), o corpo é chamado de partícula. Qualquer corpo que não seja redutível a um único
-    partícula será chamada de contínuo <a href="#ref1">[1]</a>.
+    A representação geométrica do estado de tensão é uma ferramenta crucial em diversas áreas da mecânica dos sólidos e da mecânica dos meios contínuos, oferecendo uma forma visual e matemática de entender como as tensões atuam em um ponto de um corpo. Essa abordagem se baseia na decomposição do tensor de tensões em diferentes componentes e na análise do comportamento das tensões em diferentes planos e estados. Para isso, o conceito de linha ou eixo hidrostático e a separação do vetor de tensões nos estados original, hidrostático, e desviador são essenciais.
     <br><br>
-    Süssekind <a href="#ref2">[2]</a> afirma que existem duas grandezas fundamentais: forças e momentos. Porém para que começemos a analisar os sólidos deformáveis vamos partir da premissa básica de que exista um certo equilíbrio. Logo para que um corpo esteja em uma condição de equilíbrio é necessário que esse sistema de forças não provoque nenhuma tendência de translação e rotação a um corpo. Portanto podemos escrever as equações <a href="#eq1">(1)</a> e <a href="#eq2">(2)</a>:
+    O eixo hidrostático é uma linha no espaço tridimensional das tensões principais (\(\sigma_{1}\), \(\sigma_{2}\) e \(\sigma_{3}\)​) em que as tensões normais são iguais em todas as direções. Nesse estado, conhecido como tensão hidrostática, temos:
 </p>
 
 <table style = "width:100%">
     <tr>
-        <td style="width: 90%;">\[ \sum \vec F = 0 \]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>
-    </tr>
-    <tr>
-        <td style="width: 90%;">\[\sum\vec M=\sum\left(\vec r\times\vec F\right)=0\]</td>
-        <td style="width: 10%;"><p align = "right" id = "eq2">(2)</p></td>
-    </tr>
+        <td style="width: 90%;">\[\sigma_1 = \sigma_2 = \sigma_3 = \sigma_h\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(1)</p></td>    </tr>
+
 </table>
 
 <p align="justify">
-    Cada um desses vetores pode ser decomposto nas componentes cartesianas \(x\), \(y\) e \(z\). Tal situação permite verificar o equilíbrio em cada uma das direções.
+    Em que, (\(\sigma_{h}\))​ representa a tensão hidrostática, que é a média das tensões principais, onde calculamos como:
 </p>
 
-{: .highlight-title }
-> CONCEITO
->
-> Força é uma grandeza física vetorial que pode modificar a direção, o sentido e a velocidade dos corpos. Salientamos que uma força é uma grandeza vetorial.  
-> Já o momento é a grandeza que mede a tendência de rotação em torno de um ponto provocada por uma força.
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[\sigma_h = \frac{\sigma_1 + \sigma_2 + \sigma_3}{3}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(2)</p></td>    </tr>
+
+</table>
 
 <p align="justify">
-    Em geral as forças são divididas em dois grandes grupos: 
+    No estado hidrostático, as tensões de cisalhamento são nulas e todas as tensões normais são iguais. Isso significa que o vetor de tensões (\(\mathbf{T_{h}}\))​ para qualquer plano será puramente normal, descrito por: 
 </p>
 
 <ul>
