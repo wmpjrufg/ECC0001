@@ -42,10 +42,10 @@ has_children: false
     No estado hidrostático, as tensões de cisalhamento são nulas e todas as tensões normais são iguais. Isso significa que o vetor de tensões (\(\mathbf{T_{h}}\))​ para qualquer plano será puramente normal, descrito por: 
 </p>
 
-<ul>
-    <li>Forças de superfície (Ver Figura <a href="#fig-intro-1">1a</a>)</li>
-    <li>Forças de corpo (Ver Figura <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a>)</li>
-</ul>
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[\mathbf{T} = \sigma \mathbf{n}\]
+</table>
 
 <p align="justify">
     Na Figura <a href="#fig-intro-1">1a</a> podemos verificar uma força de superfície agindo. Considerando que este elemento está tracionado poderiamos dizer que a força \( \vec{P} \) representa a massa de um corpo que é suportado pelo tirante. Já as Figuras <a href="#fig-intro-1">1b</a> e <a href="#fig-intro-1">1c</a> representam as forças de corpo sendo que em <a href="#fig-intro-1">1b</a> seria o próprio peso do elemento estrutural sujeito a ação da gravidade e <a href="#fig-intro-1">1c</a> a ação de uma força magnética de um imã.
