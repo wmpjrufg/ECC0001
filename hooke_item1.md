@@ -30,13 +30,13 @@ has_children: false
 
 <table style="width:100%">
     <tr>
-        <td style="width: 90%;">\[ \nu = -\frac{\varepsilin_{lat}}{\varepsilin_{long}} \]</td>
+        <td style="width: 90%;">\[ \nu = -\frac{\varepsilon_{lat}}{\varepsilon_{long}} \]</td>
         <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
     </tr>
 </table>
 
 <p align="justify">
-    Onde \(\varepsilin_{lat}\) é a deformação lateral do sólido e \(\varepsilin_{long}\) é a deformação longitudinal.
+    Onde \(\varepsilon_{lat}\) é a deformação lateral do sólido e \(\varepsilon_{long}\) é a deformação longitudinal.
 </p>
 
 <p align="justify">
