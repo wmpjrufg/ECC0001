@@ -30,13 +30,13 @@ has_children: false
 
 <table style="width:100%">
     <tr>
-        <td style="width: 90%;">\[ \nu = -\frac{\varepsilin_{lat}}{\varepsilin_{long}} \]</td>
+        <td style="width: 90%;">\[ \nu = -\frac{\varepsilon_{lat}}{\varepsilon_{long}} \]</td>
         <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
     </tr>
 </table>
 
 <p align="justify">
-    Onde \(\varepsilin_{lat}\) é a deformação lateral do sólido e \(\varepsilin_{long}\) é a deformação longitudinal.
+    Onde \(\varepsilon_{lat}\) é a deformação lateral do sólido e \(\varepsilon_{long}\) é a deformação longitudinal.
 </p>
 
 <p align="justify">
@@ -49,15 +49,15 @@ has_children: false
 <table style="width:100%">
     <tr>
         <td style="width: 90%;">\[ \varepsilon_x = \frac{\sigma_x}{E} \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq2">(2)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \varepsilon_y = - \nu \frac{\sigma_x}{E} \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq3">(3)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \varepsilon_z = - \nu \frac{\sigma_x}{E} \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq4">(4)</p></td>
     </tr>
 </table>
 
@@ -68,27 +68,27 @@ has_children: false
 <table style="width:100%">
     <tr>
         <td style="width: 90%;">\[ \varepsilon_x = \frac{1}{E} \left( \sigma_x - \nu \sigma_y - \nu \sigma_z \right) \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq5">(5)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \varepsilon_y = \frac{1}{E} \left( \sigma_y - \nu \sigma_z - \nu \sigma_x \right) \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq6">(6)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \varepsilon_z = \frac{1}{E} \left( \sigma_z - \nu \sigma_x - \nu \sigma_y \right) \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq7">(7)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \gamma_{xy} = \frac{1}{G} \tau_{xy} \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq8">(8)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \gamma_{yz} = \frac{1}{G} \tau_{yz} \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq9">(9)</p></td>
     </tr>
     <tr>
         <td style="width: 90%;">\[ \gamma_{zx} = \frac{1}{G} \tau_{zx} \]</td>
-        <td style="width: 10%;"><p align="right" id="eq1">(1)</p></td>
+        <td style="width: 10%;"><p align="right" id="eq10">(10)</p></td>
     </tr>
 </table>
 
