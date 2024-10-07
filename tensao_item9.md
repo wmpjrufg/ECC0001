@@ -45,7 +45,6 @@ has_children: false
 <table style = "width:100%">
     <tr>
         <td style="width: 90%;">\[\mathbf{T} = \sigma \mathbf{n}\]
-
 </table>
 
 <p align="justify">
