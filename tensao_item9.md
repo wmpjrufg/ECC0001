@@ -71,7 +71,21 @@ has_children: false
         <td style="width: 10%;"><p align = "right" id = "eq1">(5)</p></td>    </tr>
 </table>
 
+<p align="justify">
+    O estado de tensão em um ponto pode ser decomposto na soma de um estado hidrostático e um estado desviador, conforme a equação:  
+</p>
 
+<table style = "width:100%">
+    <tr>
+        <td style="width: 90%;">\[\mathbf{T} = \mathbf{T_h} + \mathbf{T_d}\]</td>
+        <td style="width: 10%;"><p align = "right" id = "eq1">(6)</p></td>    </tr>
+</table>
+
+<p align="justify">
+    Essa decomposição é útil porque o estado hidrostático está associado a mudanças de volume, enquanto o estado desviador está relacionado a mudanças de forma. Em termos de falha de materiais, muitos critérios, como o critério de von Mises, baseiam-se no estado desviador, pois é este que causa a maioria das deformações permanentes ou plásticas.
+    <br><br>
+    A decomposição do estado de tensão em suas componentes hidrostática e desviadora é essencial para entender o comportamento de materiais submetidos a diferentes tipos de carregamento. Enquanto o estado hidrostático está associado a compressões ou expansões uniformes, o estado desviador é o principal responsável pelas deformações cisalhantes que podem levar à falha do material. Essa abordagem é amplamente aplicada na teoria da elasticidade, na plasticidade, e em teorias de falha.  
+</p>
 
 
 <h1>Referências</h1>
