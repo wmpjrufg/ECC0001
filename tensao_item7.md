@@ -67,7 +67,7 @@ has_children: false
 <p align="justify">
     Na Mecânica do Contínuo, tratamos as equações de equilíbrio de forma mais geral, considerando que o corpo em questão pode estar sujeito a deformações grandes ou pequenas. As equações diferenciais de equilíbrio descritas anteriormente permanecem válidas para qualquer meio contínuo, e sua solução depende das condições de contorno e das propriedades do material, como a elasticidade ou plasticidade.
     <br><br> 
-    Essas equações também se integram às equações constitutivas, que relacionam as tensões às deformações de acordo com o comportamento do material (como no caso da Lei de Hooke para materiais elásticos).
+    Essas equações também se integram às equações constitutivas, que relacionam as tensões às deformações de acordo com o comportamento do material, como no caso da Lei de Hooke para materiais elásticos.
 </p>
 
 <h1>Referências</h1>
